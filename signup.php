@@ -423,6 +423,33 @@ html {
 
 
 </style>
+   
+   <?php
+$firstname = $lastname = $phonenumber = $mobilenumber =$verification = $emailid = $password = $repassword = $userkey = "";
+$fnameErr = $lnameErr = "";
+	
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (empty($_POST["firstname"])) {
+$fnameErr = "Name is required";
+} else {
+$firstname = test_input($_POST["firstname"]);
+// check if name only contains letters and whitespace
+if (!preg_match("/^[a-zA-Z ]*$/",$firstname)) {
+$fnameErr = "Only letters and white space allowed"; 
+}
+}
+	
+if (empty($_POST["lastname"])) {
+$lnameErr = "Name is required";
+} else {
+$lastname = test_input($_POST["lastname"]);
+// check if name only contains letters and whitespace
+if (!preg_match("/^[a-zA-Z ]*$/",$lastname)) {
+$lnameErr = "Only letters and white space allowed"; 
+}
+}	
+}
+?>
 </form>
    </div>
 
