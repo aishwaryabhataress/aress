@@ -454,8 +454,8 @@ $lnameErr = "Only letters and white space allowed";
       <div class="button login">
          <button><span>GO</span> <i class="fa fa-check"></i></button>
       </div>
-	< div class="button login">
+	<div class="button login">
 		<button><span><a href="signup.php" style="color:black;">SignUp Here</a></span><i class="fa fa-check"></i></button>
-	  <</div>
+	  </div>
       <!--<a href="" class="pass-forgot">Forgot your password?</a>-->
 
