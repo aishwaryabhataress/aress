@@ -406,8 +406,9 @@ html {
 <script type="application/javascript"  src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
-console.log("Hello world!");
-
+$(function(){
+console.log('Test Console');
+});
    $(".input input").focus(function() {
 	
 
