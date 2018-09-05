@@ -403,7 +403,7 @@ html {
 
 </style>
 
-<script>
+<script type="application/javascript">
 $(function() {
 
    $(".input input").focus(function() {
