@@ -406,10 +406,10 @@ html {
 <script type="application/javascript"  src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
-
+console.log("Hello world!");
 
    $(".input input").focus(function() {
-	console.log("Hello world!");
+	
 
       $(this).parent(".input").each(function() {
          $("label", this).css({
