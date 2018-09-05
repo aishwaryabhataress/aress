@@ -454,8 +454,7 @@ $lnameErr = "Only letters and white space allowed";
    </div>
 
    <div class="overbox">
-      <div class="material-button alt-2"><span class="shape"></span></div>
-
+      
       <div class="title">REGISTER</div>
     <form name="signup" action="validsignup.php" method="post" onsubmit="return validate()">
       <div class="input">
