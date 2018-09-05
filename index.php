@@ -454,6 +454,7 @@ $(function() {
    })
 
    $(".alt-2").click(function() {
+	   alert('hello madam');
       if (!$(this).hasClass('material-button')) {
          $(".shape").css({
             "width": "100%",
