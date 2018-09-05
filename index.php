@@ -1,3 +1,4 @@
+<style>
 .box {
    position: relative;
    top: 0;
@@ -400,7 +401,7 @@ html {
    outline: none;
 }
 
-
+</style>
 
 $(function() {
 
