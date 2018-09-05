@@ -403,6 +403,7 @@ html {
 
 </style>
 
+<script>
 $(function() {
 
    $(".input input").focus(function() {
@@ -522,7 +523,7 @@ $(function() {
    });
 
 });
-
+</script>
 
 <?php
 $email = $pwd = "";
