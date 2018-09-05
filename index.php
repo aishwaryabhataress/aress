@@ -409,7 +409,7 @@ html {
 
 
    $(".input input").focus(function() {
-
+	console.log('Hello');
       $(this).parent(".input").each(function() {
          $("label", this).css({
             "line-height": "18px",
