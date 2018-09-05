@@ -404,7 +404,7 @@ html {
 </style>
 
 <script type="application/javascript">
-$(function() {
+
 
    $(".input input").focus(function() {
 
@@ -523,7 +523,7 @@ $(function() {
 
    });
 
-});
+
 </script>
 
 <?php
