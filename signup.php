@@ -1,5 +1,6 @@
 <html>
 <head>
+	<title>SignUp Page </title>
 	    <script>
         function validate(){
             var a = document.getElementById("password").value;
