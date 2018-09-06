@@ -7,7 +7,7 @@
     }
     .container{
 	height:675px; 
-	width:400px; 
+	width:600px; 
 	align:center;
 	background-color:white; 
 	border: 2px solid white; 
