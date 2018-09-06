@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSubYSvSN7DWGAJVG1VE8kvtPjFSDZKmDSe2GkqqR5s71r9-zxQbQ);">
+<body style="">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
