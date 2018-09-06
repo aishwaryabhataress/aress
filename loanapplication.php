@@ -3,7 +3,7 @@
 <head>
   <style> 
     .h4{
-       text-align: justify;
+       align: justify;
 
     }
 </style>
