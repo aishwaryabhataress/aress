@@ -45,7 +45,9 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image:url(http://www.powerpointstemplate.com/wp-content/uploads/2016/08/business-backgrounds-wallpapers-ppt-1024x768.jpg);">
+<body style="background-image:url(http://www.powerpointstemplate.com/wp-content/uploads/2016/08/business-backgrounds-wallpapers-ppt-1024x768.jpg);background-position: center;
+			   background-size: cover;
+			   background-repeat: no-repeat;">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
