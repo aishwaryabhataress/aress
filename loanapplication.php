@@ -20,7 +20,7 @@
 }
 	  input {
   display: inline-block;
-  float: right;
+ 
 }
 </style>
   </head>
