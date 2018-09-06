@@ -5,9 +5,19 @@
     h2{
       text-align : center;
     }
+    #fft.single-fft #header .template_box__inner {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 47px);
+    margin: 0 auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
 </style>
   </head>
 <body>
+  <div class="template_box__head">
   <h1>Loan Application Form</h1>
   
 
@@ -25,6 +35,6 @@
     
 
   </form>
-
+  </div>
 </body>
 </html>
