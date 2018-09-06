@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image:url(https://us.123rf.com/450wm/utah778/utah7781705/utah778170500079/79087779-money-put-on-loan-application-form-with-cafe-in-background-concept-of-business-loan-new-business-loa.jpg?ver=6);background-position: center;
+<body style="background-image:url();background-position: center;
 			   background-size: cover;
 			   background-repeat: no-repeat;">
 <div class="container">
