@@ -392,7 +392,7 @@
 
 	.overbox {
 	   width: 100%;
-	   height: 500px;
+	   height: 1000px;
 	   position: absolute;
 	   top: 0;
 	   left: 0;
