@@ -580,7 +580,7 @@ $lnameErr = "Only letters and white space allowed";
 	   </form>
    </div>
 
-   <div class="overbox">
+   <div>
 	  <div class="material-button alt-2"><span class="shape"></span></div>
 
 	  <div class="title">REGISTER</div>
