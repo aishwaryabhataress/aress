@@ -132,6 +132,7 @@
 	   float: left;
 	   padding: 60px 50px 40px 50px;
 	   width: 100%;
+	   height: 100%;
 	   background: #fff;
 	   border-radius: 10px;
 	   transform: scale(1);
@@ -152,7 +153,7 @@
 	.box:before {
 	   content: "";
 	   width: 100%;
-	   height: 30px;
+	   height: 100px;
 	   border-radius: 10px;
 	   position: absolute;
 	   top: -10px;
