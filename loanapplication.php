@@ -7,10 +7,10 @@
     }
     .container{
 	height:675px; 
-	width:600px; 
+	width:800px; 
 	align:center;
 	background-color:white; 
-	border: 2px solid white; 
+	border: 3px solid black; 
 	border-radius:80px;
 	margin-left:auto;
 	margin-right:auto;
