@@ -1,4 +1,5 @@
 <html>
+	<title> Home Page </title>
 <head>
 <style>
 .header{
