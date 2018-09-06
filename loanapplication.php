@@ -7,12 +7,12 @@
   <form name="loanapplication">
     Personal Information
     Please complete the form below to submit your loan application online. Your application is secure and we do not share any of your information.
-    Name<input type="text" name="firstname" placeholder="First Name"  required>
+   <br> Name: <input type="text" name="firstname" placeholder="First Name"  required>
     <input type="text" name="lastname" placeholder="Last Name"  required>
-    Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
-    Address: <input type ="address" name="address">
-    Email: <input type="email" name="emailaddress">
-    Mobile: <input type="tel" name="usrtel">
+    <br>Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
+    <br>Address: <input type ="address" name="address">
+    <br>Email: <input type="email" name="emailaddress">
+    <br>Mobile: <input type="tel" name="usrtel">
     
 
   </form>
