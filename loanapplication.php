@@ -41,6 +41,23 @@
     <br><br>Email: <input type="email" name="emailaddress">
     <br><br>Mobile: <input type="tel" name="usrtel">
     
+	  
+     <hr style="border: 3px solid#04C5F9;" />
+     <h2>Loan Information</h2><br>
+     <hr style="border: 3px solid#04C5F9;" />
+    <br><br> Loan Application Name: <input type="text" name="loanname"  required>
+    <br><br>Loan Type: <select>
+  <option value="vehicle">Vehicle loan</option>
+  <option value="home">Home loan</option>
+  <option value="marriage">Marriage loan</option>
+<option value="marriage">Marriage loan</option>
+	  <option value="education">Education loan</option>
+	  <option value="farming">Farming loan</option>
+	  <option value="capital">Working Capital loan	</option>
+</select>
+    <br><br>Loan Amount: <input type="amount" name="amount">
+      
+	  
 
   </form>
   </div>
