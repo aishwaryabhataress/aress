@@ -40,7 +40,7 @@ a.active{
 </div>
 </div>
   <a href="index.php"><button type="logout" name="action" value="logout">Log Out</button>
-	    
+	<a href="loanapplication.php"><button type="Apply for Loan" name="action" value="Apply for Loan">Apply for Loan</button>    
 <div class="menu">
 <ul>
   <li><a class="active">HOME</a></li>
