@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image:url(http://www.powerpointstemplate.com/wp-content/uploads/2016/08/business-backgrounds-wallpapers-ppt-1024x768.jpg);background-position: center;
+<body style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hBv0b4HUeZT6iy6KUtAt2SpdsiHP7S86IbdfUhpH8VGrNFxl);background-position: center;
 			   background-size: cover;
 			   background-repeat: no-repeat;">
 <div class="container">
