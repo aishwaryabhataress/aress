@@ -2,7 +2,10 @@
 <title>Loan Application Page </title>
 <head>
   <style> 
+    .h4{
+       text-align: justify;
 
+    }
 </style>
   </head>
 <body>
