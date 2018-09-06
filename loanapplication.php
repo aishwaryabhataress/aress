@@ -6,7 +6,15 @@
   <h3>Please fill in all needed information in the loan application form below to request a loan from your organization. Information regarding income assets are requested for qualification. If you have questions on how to fill this loan application form, feel free to contact the Loan Officer or any other member of the Loan Department.</h3>
   <form name="loanapplication">
     Personal Information
+    Please complete the form below to submit your loan application online. Your application is secure and we do not share any of your information.
+    First Name<input type="text" name="firstname" required>
+		Last Name<input type="text" name="lastname"  required>
+    Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
+    Address: <input type ="address" name="address">
+    Email: <input type="email" name="emailaddress">
+    Mobile: <input type="tel" name="usrtel">
     
+
   </form>
 
 </body>
