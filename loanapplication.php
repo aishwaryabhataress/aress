@@ -6,7 +6,7 @@
       text-align : center;
     }
     .container{
-	height:675px; 
+	height:100%; 
 	width:800px; 
 	align:center;
 	background-color:white; 
