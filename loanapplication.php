@@ -10,7 +10,7 @@
   
 
   <form name="loanapplication">
-    Personal Information<br>
+    <h2>Personal Information</h2><br>
      <hr style="border: 3px solid#04C5F9;" />
     <br><br> Name: <input type="text" name="firstname" placeholder="First Name"  required>
     <input type="text" name="lastname" placeholder="Last Name"  required>
