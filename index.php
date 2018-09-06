@@ -11,7 +11,7 @@ height:350px;
 width:350px; 
 align:center;
 background-color: rgba(255, 255, 255, .6); 
-border: 2px solid white; 
+border: 2px solid black; 
 border-radius:100px;
 margin-left:auto;
 margin-right:auto;
