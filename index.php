@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="">
+<body style="background-image:url(http://www.freeimageslive.com/galleries/presentation/financial/poundcoins1867_pp.jpg);">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
