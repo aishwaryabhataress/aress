@@ -81,7 +81,7 @@ $lnameErr = "Only letters and white space allowed";
 }	
 }
 ?>
-<body style="background-color:#04C5F9">
+<body style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7hBv0b4HUeZT6iy6KUtAt2SpdsiHP7S86IbdfUhpH8VGrNFxl)">
 
 	<div class="container">
 	<div class="signin">
