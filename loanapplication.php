@@ -5,7 +5,7 @@
     h2{
       text-align : center;
     }
-    #fft.single-fft #header .template_box__inner {
+    .template_box__inner {
     position: absolute;
     width: 100%;
     height: calc(100% - 47px);
