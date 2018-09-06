@@ -47,6 +47,8 @@
      <hr style="border: 3px solid#04C5F9;" />
     <br><br> Loan Application Name: <input type="text" name="loanname"  required>
     <br><br>Loan Type: <select>
+	  <option value="select">---Select---</option>
+  
   <option value="vehicle">Vehicle loan</option>
   <option value="home">Home loan</option>
   <option value="marriage">Marriage loan</option>
