@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image: url(https://as2.ftcdn.net/jpg/01/65/27/89/500_F_165278938_mZAWnjBAi8pUjMkyLeWKUb59kyY9ficH.jpg);">
+<body style="background-image: url(http://mysticalgraphics.com/wp-content/uploads/2018/03/orange-waves-powerpoint-templates-abstract-orange-free-in-template-design-background-orange.jpg);">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
