@@ -2,7 +2,9 @@
 <title>Loan Application Page </title>
 <head>
   <style> 
-   
+    .h2{
+      align: center;
+    }
 </style>
   </head>
 <body>
