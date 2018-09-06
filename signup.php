@@ -91,7 +91,6 @@ $lnameErr = "Only letters and white space allowed";
 	<form name="signup" action="validsignup.php" method="post" onsubmit="return validate()">
 		<input type="text" name="firstname" placeholder="First Name" class="credentials" required>
 		<input type="text" name="lastname" placeholder="Last Name" class="credentials" style="margin-top:5%;" required>
-		<input type="number" name="phonenumber" placeholder="Phone Number" class="credentials" style="margin-top:5%;" value="<?php echo $phonenumber;?>">
 		<input type="number" name="mobilenumber" placeholder="Mobile Number" class="credentials" style="margin-top:5%;" value="<?php echo $mobilenumber;?>">
 		<input type="text" name="emailid" placeholder="Email Id" class="credentials" style="margin-top:5%;" required>
 		<input type="password" id="password" name="password" placeholder="Password" class="credentials" style=" margin-top:5%;" required>
