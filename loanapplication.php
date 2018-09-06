@@ -3,7 +3,7 @@
 <head>
   <style> 
     .h2{
-      align: center;
+      text-align : center;
     }
 </style>
   </head>
