@@ -5,19 +5,23 @@
     h2{
       text-align : center;
     }
-    .template_box__inner {
-    position: absolute;
-    width: 100%;
-    height: calc(100% - 47px);
-    margin: 0 auto;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
+    .container{
+	height:675px; 
+	width:400px; 
+	align:center;
+	background-color:white; 
+	border: 2px solid white; 
+	border-radius:80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	position: relative;
+	display:block;	
 }
 </style>
   </head>
 <body>
-  <div class="template_box__head">
+  <div class="container">
   <h1>Loan Application Form</h1>
   
 
