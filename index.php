@@ -9,7 +9,7 @@ color:red;
 height:350px; 
 width:350px; 
 align:center;
-background-color:white; 
+background-color: rgba(255, 255, 255, .6); 
 border: 2px solid white; 
 border-radius:100px;
 margin-left:auto;
@@ -19,7 +19,7 @@ position: relative;
 display:block;	
 }
 .inner-container{
-background-color:white;
+background-color: rgba(255, 255, 255, .6);
 height:150px;
 width:275px;
 margin-left:auto;
@@ -44,7 +44,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-color:#04C5F9">
+<body style="">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
