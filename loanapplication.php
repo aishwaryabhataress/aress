@@ -18,6 +18,10 @@
 	position: relative;
 	display:block;	
 }
+	  input {
+  display: inline-block;
+  float: left;
+}
 </style>
   </head>
 <body>
