@@ -9,6 +9,12 @@
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+     #form * {
+    box-sizing: border-box;
+}
+    #form div[data-role=control] p {
+    font-size: 1em;
+}
 </style>
   </head>
 <body>
