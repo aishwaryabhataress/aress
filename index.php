@@ -45,7 +45,7 @@ text-align:center;
 <?php
 $email = $pwd = "";
 ?>
-<body style="background-image: url(https://cdn.pixabay.com/photo/2016/02/24/13/50/business-1219882_960_720.jpg);">
+<body style="background-image: url(http://www.powerpointstemplate.com/wp-content/uploads/2017/07/finance-dollar-for-economy-ppt-background-template-blue-300x225.jpg);">
 <div class="container">
 <div class="signin">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:90px;width:200px;margin-top:5px;">
