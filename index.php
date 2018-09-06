@@ -533,16 +533,16 @@
 		   <div class="box">
 
 			  <div class="title">LOGIN</div>
+			<form method="post" action="validate.php">
 
 			  <div class="input">
-				 <label for="name">Username</label>
-				 <input type="text" name="name" id="name">
+				 <input type="text" name="email" placeholder="Email Id" class="credentials" required>
 				 <span class="spin"></span>
 			  </div>
 
 			  <div class="input">
-				 <label for="pass">Password</label>
-				 <input type="password" name="pass" id="pass">
+				<input type="password" name="pwd" placeholder="Password" class="credentials" style=" margin-top:5%;" required>
+
 				 <span class="spin"></span>
 			  </div>
 
@@ -551,7 +551,7 @@
 			  </div>
 
 			  <a href="" class="pass-forgot">Forgot your password?</a>
-
+			   </form>
 		   </div>
 
 		   <div class="overbox">
