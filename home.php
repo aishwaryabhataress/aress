@@ -38,6 +38,8 @@ a.active{
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:100px;width:200px;">
 </div>
 </div>
+  <a href="index.php"><button type="logout" name="action" value="logout">Log Out</button>
+	    
 <div class="menu">
 <ul>
   <li><a class="active">HOME</a></li>
@@ -46,5 +48,6 @@ a.active{
 <div class="mainframe">
  <p>Welcome <?php echo $_POST['email']; ?> </p>
 </div>
+ 
 </body>
 </html>
