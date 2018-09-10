@@ -12,5 +12,6 @@ $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c, Birth_Da
 $result= pg_query($query);
 
  echo "<script type='text/javascript'>alert('Application submitted successfully!')</script>";
+include("home.php");
 return $db;
 ?>
