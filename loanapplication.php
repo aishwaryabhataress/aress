@@ -66,6 +66,13 @@
 	  <br><br><input type="submit" name="submit" value="Submit" />
 
   </form>
+	  
+	  <?php
+		if(isset($_POST['submit'])){
+		$selected_val = $_POST['loantype']; // Storing Selected Value In Variable
+		echo "You have selected :" .$selected_val; // Displaying Selected Value
+		}
+	?>
   </div>
 </body>
 </html>
