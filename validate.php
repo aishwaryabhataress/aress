@@ -21,10 +21,12 @@ while($row = pg_fetch_row($result))
 		{
 			$flag = 1;
 			header("Location:home.php");
+			echo "Welcome";
 			exit;
 		}
 	}
 }
+
 if($flag == 0)
 {
 	echo "<script type='text/javascript'>alert(\"Wrong Username or Password\")</script>";
