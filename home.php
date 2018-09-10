@@ -58,8 +58,8 @@ li a.active {
 <a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button>
 	</div>
 </div>
-<br><br>
-	<ul>
+<br><br><br>
+<ul>
   <li><a href="home.php">Home</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
