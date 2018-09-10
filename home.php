@@ -56,8 +56,7 @@ li a.active {
             margin-left:500px;
             margin-top :-200px;
            padding-left: 80px;
-            color:#E1E1D8;
-             font-size: 30px;
+                       font-size: 30px;
              font-color:#F5330C;
             font-style: oblique;}
 	
