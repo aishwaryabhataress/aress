@@ -21,7 +21,7 @@ li {
 
 li a {
     display: block;
-    color: #666;
+    color: #04C5F9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,7 @@ li a:hover:not(.active) {
 
 li a.active {
     color: white;
-    background-color: #4CAF50;
+    background-color: #04C5F9;
 }	
 .button {
     background-color: #4CAF50; /* Green */
