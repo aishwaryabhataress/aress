@@ -7,7 +7,8 @@ if (!$db)
 }
 $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c, Birth_Date__c, Age__c, Address__c, Email_Id__c, Mobile__c,Name, Loan_Type__c, Loan_Amount__c) VALUES('$_POST[firstname]','$_POST[bday]','$_POST[age]', '$_POST[address]','$_POST[emailaddress]','$_POST[usrtel]','$_POST[loanname]','$_POST[loantype]','$_POST[amount]');";
 $result= pg_query($query);
-return $db;
+
 echo "Record inserted successfully!!";
 echo $result;
+return $db;
 ?>
