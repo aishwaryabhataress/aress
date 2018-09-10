@@ -49,7 +49,10 @@ li a.active {
     border-radius: 12px;
 	float: center;
 }
-	
+
+	p{
+		float: left;
+	}
 	
 	
 </style>
