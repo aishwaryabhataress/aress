@@ -5,6 +5,7 @@ if (!$db)
 	echo "An error occurred.\n";
 	exit;	
 }
+echo $_POST[age];
 $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c, Birth_Date__c, Age__c, Address__c, Email_Id__c, Mobile__c,Name, Loan_Type__c, Loan_Amount__c) VALUES('$_POST[firstname]','$_POST[bday]','$_POST[age]', '$_POST[address]','$_POST[emailaddress]','$_POST[usrtel]','$_POST[loanname]','$_POST[loantype]','$_POST[amount]');";
 //$query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c, Birth_Date__c, Age__c, Address__c, Email_Id__c, Mobile__c,Name, Loan_Type__c, Loan_Amount__c) VALUES('Shamal Dorge','1996-06-25', '22', 'Pune','sdd@gmail.com','1234567890','home loan','Home loan','123333');";
 
