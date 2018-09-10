@@ -23,15 +23,20 @@
 }
 </style>
   </head>
+	
+	<?php
+		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $loantype = $amount
+	?>
+	
 <body>
   <div class="container">
   <h1>Loan Application Form</h1>
   
 
   <form name="loanapplication">
-    <hr style="border: 3px solid#04C5F9;" />
+    <hr style="border: 1px solid#04C5F9;" />
     <h2>Personal Information</h2><br>
-     <hr style="border: 3px solid#04C5F9;" />
+     <hr style="border: 1px solid#04C5F9;" />
     <br><br> Name: <input type="text" name="firstname" placeholder="First Name"  required>
     <input type="text" name="lastname" placeholder="Last Name"  required>
     <br><br>Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
@@ -41,11 +46,13 @@
     <br><br>Mobile: <input type="tel" name="usrtel">
     
 	  
-     <hr style="border: 3px solid#04C5F9;" />
+     <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
-     <hr style="border: 3px solid#04C5F9;" />
+     <hr style="border: 1px solid#04C5F9;" />
     <br><br> Loan Application Name: <input type="text" name="loanname"  required>
     <br><br>Loan Type: <select name="loantype">
+	  <option value="default">Select</option>
+
 <option value="vehicle">Vehicle loan</option>
 <option value="home">Home loan</option>
 <option value="marriage">Marriage loan</option>
@@ -56,7 +63,7 @@
 
     <br><br>Loan Amount: <input type="amount" name="amount">
       
-	  <input type="submit" name="submit" value="Get Selected Values" />
+	  <br><br><input type="submit" name="submit" value="Submit" />
 
   </form>
   </div>
