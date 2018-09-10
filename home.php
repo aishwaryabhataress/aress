@@ -49,6 +49,26 @@ li a.active {
     border-radius: 12px;
 	float: center;
 }
+	
+	
+	.slider {
+        position:relative;
+    }
+    #moveleft, #moveright {
+        position:absolute;
+        width:16px;
+        height:16px;
+        top:50%;
+        margin-top:-8px;
+    }
+    #moveleft {
+        left:5px;
+    }
+     #moveright {
+        right:5px;
+    }
+	
+	
 </style>
 </head>
 <body>
@@ -64,6 +84,30 @@ li a.active {
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+
+	
+	<div class="slider">
+    <input id="moveleft" type="image" src="image/left.png">
+    <input id="moveright" type="image" src="image/right.png">
+
+    <div class="img" id="textbox">
+
+        <img src="image/welcome.png" alt="welcome" width="87" height="137" style="margin:3px 0 0 -2px">
+
+        <img src="image/happynewyear.jpg" alt="happynewyear" width="92" height="131" style="margin:-5px 0 5px -5px">
+
+        <img src="image/happyeaster.jpg" alt="easter" width="92" height="131" style="margin:-1px 0 5px">
+
+        <img src="image/imarahton.jpg" alt="easter" width="92" height="131" style="margin:-1px 0 4px -3px">
+
+        <img src="image/happybirthday.jpg" alt="easter" width="93" height="131" style="margin:-4px 0 4px -3px">
+
+        <img src="image/summer.jpg" alt="easter" width="93" height="131" style="margin:-4px 0 4px -2px">
+
+        <img src="image/valentine.jpg" alt="easter" width="91" height="131" style="margin:-1px 0 4px -2px">
+
+    </div> 
+	
 	
 	
 <a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   
