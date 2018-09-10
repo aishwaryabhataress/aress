@@ -58,13 +58,16 @@ li a.active {
 </div>
 </div>
 
-<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
-&nbsp;<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
-<ul>
+	<ul>
   <li><a class="active"href="home.php">Home</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
 </ul>
+	
+	
+<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
+&nbsp;<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+
 
 
 </body>
