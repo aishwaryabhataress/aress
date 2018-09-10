@@ -59,6 +59,7 @@ li a.active {
             font-size: 25px;
              font-color:#F5330C;
             font-style: oblique;}
+	text-align:justify;
 	
 </style>
 </head>
