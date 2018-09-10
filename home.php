@@ -72,8 +72,9 @@ li a.active {
 </ul>
 <br>
 <div>
+	<p>
 	<img src="http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg"  style="height:300px;width:500px;">
-	<p>  Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
+	  Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
 		The goal of microfinancing is to provide individuals with money to invest in themselves or their business.
 		"Microfinance focuses on meeting the financial needs of populations that are financially underserved," said Tarsava.
 		"These are individuals who usually lack the credit or resources to secure a loan and are unlikely to get approval from traditional banks. 
