@@ -41,7 +41,7 @@ a.active{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: auto;
+    margin-left: 500px;
     cursor: pointer;
     border-radius: 12px;
 	float: center;
@@ -56,7 +56,7 @@ a.active{
 </div>
 
 <a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
-<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+&nbsp;&nbsp;<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
 
 
 </body>
