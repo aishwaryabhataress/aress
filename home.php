@@ -83,7 +83,7 @@ li a.active {
 	
 	
 	<div>
-<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:300px;border-radius:40px; margin-top:90px;"/> 
+<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:300px;border-radius:40px; margin-top:50px;"/> 
 <div class="para">
 <p>
  Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
