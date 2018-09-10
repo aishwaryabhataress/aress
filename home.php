@@ -45,7 +45,7 @@ a.active{
 
 </div>
 <div class="mainframe">
- <p>Welcome <?php echo $_POST[email]; ?> </p>
+ <p>Welcome </p> <?php echo $_POST[email]; ?>
 </div>
  
 </body>
