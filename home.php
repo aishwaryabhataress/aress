@@ -36,8 +36,8 @@ li a.active {
     background-color: #04C5F9;
 }	
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+    background-color: #4CAF50; 
+	border: none;
     color: white;
     padding: 20px;
     text-align: center;
@@ -55,7 +55,7 @@ li a.active {
 <div class="header">
 <div class="logo">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:100px;width:200px;">
-<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button>
+<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button>
 	</div>
 </div>
 <br><br><br>
