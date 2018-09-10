@@ -44,6 +44,7 @@ a.active{
     margin: auto;
     cursor: pointer;
     border-radius: 12px;
+	float: center;
 }
 </style>
 </head>
