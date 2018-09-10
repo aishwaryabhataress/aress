@@ -49,10 +49,9 @@ li a.active {
     border-radius: 12px;
 	float: center;
 }
-	p{
-		float: right;
-		text-align: justify;
-	}	
+	img {
+    float: left;
+}	
 	
 	
 </style>
