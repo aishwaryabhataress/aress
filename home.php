@@ -55,7 +55,7 @@ li a.active {
 <div class="header">
 <div class="logo">
 <img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:100px;width:200px;">
-<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button>
+<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
 	</div>
 </div>
 <br><br><br>
@@ -66,7 +66,7 @@ li a.active {
 </ul>
 	
 	
-<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
+<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   
 
 
 
