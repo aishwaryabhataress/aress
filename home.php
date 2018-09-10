@@ -44,7 +44,8 @@ li a.active {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 500px;
+	margin-top:100px;
+    margin-left: 550px;
     cursor: pointer;
     border-radius: 12px;
 	float: center;
