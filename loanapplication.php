@@ -33,7 +33,7 @@
   <h1>Loan Application Form</h1>
   
 
-  <form name="loanapplication">
+  <form name="loanapplication" action="applyloan.php" >
     <hr style="border: 1px solid#04C5F9;" />
     <h2>Personal Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
@@ -63,7 +63,7 @@
 
     <br><br>Loan Amount: <input type="amount" name="amount">
       
-	  <br><br><input type="submit" name="submit" value="Submit" />
+	  <br><br><input type="submit" name="submit" value="Submit" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;"/>
 
   </form>
 	  
