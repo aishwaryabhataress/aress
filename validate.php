@@ -26,7 +26,7 @@ while($row = pg_fetch_row($result))
 		}
 	}
 }
-echo "Welcome";
+
 if($flag == 0)
 {
 	echo "<script type='text/javascript'>alert(\"Wrong Username or Password\")</script>";
