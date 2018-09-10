@@ -52,12 +52,12 @@
     <br><br>Loan Type: <select name="loantype">
 	  <option value="default">Select</option>
 
-<option value="vehicle">Vehicle loan</option>
-<option value="home">Home loan</option>
-<option value="marriage">Marriage loan</option>
-<option value="education">Education loan</option>
-<option value="farming">Farming loan</option>
-	  <option value="work capital">Work Capital loan</option>
+<option value="Vehicle loan">Vehicle loan</option>
+<option value="Home loan">Home loan</option>
+<option value="Marriage loan">Marriage loan</option>
+<option value="Education loan">Education loan</option>
+<option value="Farming loan">Farming loan</option>
+	  <option value="Work Capital loan">Work Capital loan</option>
 </select>
 
     <br><br>Loan Amount: <input type="amount" name="amount">
