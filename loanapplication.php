@@ -62,7 +62,7 @@
 
     <br><br>Loan Amount: <input type="amount" name="amount">
       
-	  <br><br><input type="submit" name="submit" value="Submit" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;"/>
+	  <br><br><input type="submit" name="submit" value="Submit" style="margin-top:5%;margin-left:300px; text-align:center; background-color:#04C5F9; color:white;"/>
 
   </form>
 	  
