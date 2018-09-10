@@ -40,10 +40,9 @@ a.active{
 </div>
 </div>
 
- <ul>
-  <li><a class="active"><a href="index.php"><button type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
 <a href="loanapplication.php"><button type="Apply for Loan" name="action" value="Apply for Loan" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
-</a></li>
-</ul>
+	<a href="index.php"><button type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+
+
 </body>
 </html>
