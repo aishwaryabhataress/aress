@@ -71,7 +71,7 @@ li a.active {
   <li><a href="#about">About</a></li>
 </ul>
 <br>
-<div>
+
 	
 	
 	
@@ -83,7 +83,7 @@ li a.active {
 		Typically, these consumers are seeking small-denomination loans … to finance the purchase of a specific equipment, or the capital to start a small business."
 
 	
-	</div>
+	
 	
 	
 	
