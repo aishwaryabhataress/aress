@@ -42,12 +42,10 @@ a.active{
   <a href="index.php"><button type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
 	<a href="loanapplication.php"><button type="Apply for Loan" name="action" value="Apply for Loan" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
 <div class="menu">
-<ul>
-  <li><a class="active">HOME</a></li>
-</ul>
+
 </div>
 <div class="mainframe">
- <p>Welcome <?php echo $_POST['email']; ?> </p>
+ <p>Welcome <?php echo $_POST[email]; ?> </p>
 </div>
  
 </body>
