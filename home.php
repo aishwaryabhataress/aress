@@ -6,32 +6,35 @@
 }
 .logo{
 }
-.menu{
-background-color:#04C5F9;
-width:100%;
-height:40px;
-color:white;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
-ul{
- list-style-type:none;
+
+li {
+    float: left;
 }
-li a{
-float:left;
-  display: block;
-  text-align: center;
-  padding: 12px 25px;
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-li a:hover{
-  background-color:white;
-  color:#04C5F9;
+
+li a:hover:not(.active) {
+    background-color: #ddd;
 }
-a.active{
-      background-color:white;
-  color:#04C5F9;
-}
-.mainframe{
-}
-	
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}	
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -57,6 +60,11 @@ a.active{
 
 <a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
 &nbsp;<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+<ul>
+  <li><a class="active"href="home.php">Home</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
 
 
 </body>
