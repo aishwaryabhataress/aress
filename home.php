@@ -69,7 +69,7 @@ li a.active {
 </ul>
 
 <div>
-	<img src="http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg"  style="height:300px;width:100%;">
+	<img src="http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg"  style="height:300px;width:500px;">
 
 	
 	</div>
