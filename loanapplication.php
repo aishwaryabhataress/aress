@@ -25,7 +25,7 @@
   </head>
 	
 	<?php
-		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $loantype = $amount
+		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $loantype = $amount =" ";
 	?>
 	
 <body>
@@ -37,9 +37,8 @@
     <hr style="border: 1px solid#04C5F9;" />
     <h2>Personal Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
-    <br><br> Name: <input type="text" name="firstname" placeholder="First Name"  required>
-    <input type="text" name="lastname" placeholder="Last Name"  required>
-    <br><br>Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
+    <br><br> Name: <input type="text" name="firstname"  required>
+       <br><br>Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
     <br><br>Age: <input type="age" name="age">
     <br><br>Address: <input type ="address" name="address">
     <br><br>Email: <input type="email" name="emailaddress">
