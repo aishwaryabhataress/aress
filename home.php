@@ -31,6 +31,20 @@ a.active{
 }
 .mainframe{
 }
+	
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 12px;
+}
 </style>
 </head>
 <body>
@@ -40,8 +54,8 @@ a.active{
 </div>
 </div>
 
-<a href="loanapplication.php"><button type="Apply for Loan" name="action" value="Apply for Loan" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
-	<a href="index.php"><button type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
+	<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
 
 
 </body>
