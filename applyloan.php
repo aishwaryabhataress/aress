@@ -5,3 +5,5 @@ $db = pg_connect("host=ec2-54-227-244-12.compute-1.amazonaws.com  port=5432 dbna
 	exit;	
 }
 $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c	, Birth_Date__c, Age__c, Address__c, Email_Id__c, Mobile__c,Name, Loan_Type__c, Loan_Amount__c) VALUES('$_POST[firstname]','$_POST[ $bday]','$_POST[age]', '$_POST[address]','$_POST[emailaddress]','$_POST[usrtel]','$_POST[loanname]','$_POST[loantype]','$_POST[amount]');";
+header("Location:home.php");
+		exit;
