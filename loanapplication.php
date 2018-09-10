@@ -33,7 +33,7 @@
   <h1>Loan Application Form</h1>
   
 
-  <form name="loanapplication" action="applyloan.php" >
+  <form name="loanapplication" action="applyloan.php" method="post">
     <hr style="border: 1px solid#04C5F9;" />
     <h2>Personal Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
