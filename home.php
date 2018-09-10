@@ -55,8 +55,8 @@ a.active{
 </div>
 </div>
 
-<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
-<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="margin-top:5%; text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
+<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button>    
+<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="text-align:center; background-color:#04C5F9; color:white;">Log Out</button>
 
 
 </body>
