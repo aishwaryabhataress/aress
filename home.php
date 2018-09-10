@@ -58,7 +58,7 @@ li a.active {
 <a href="index.php"><button class="button" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
 	</div>
 </div>
-<br><br><br>
+
 <ul>
   <li><a href="home.php">Home</a></li>
   <li><a href="#contact">Contact</a></li>
