@@ -63,6 +63,7 @@
     <br><br>Loan Amount: <input type="amount" name="amount">
       
 	  <br><br><input type="submit" name="submit" value="Submit" style="margin: auto;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
+	  &nbsp;<a href="home.php"><input type="back" name="back" value="Back" style="margin: auto;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/></a>
 
   </form>
 	  
