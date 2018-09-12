@@ -33,7 +33,7 @@ label {
 	  
 .my-button {
     display: inline-block;
-    margin: 5px;
+    
     color: #333;
     font-size: 1em;
     font-style: italic;
@@ -166,8 +166,8 @@ label {
 	<br><br>
 	  <div style="width:100%; display: inline;">
 		  <div style="width:35%;  margin: 0 auto;">
-	  <input class="my-button" type="submit" name="submit" value="Submit" style=" margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
-	  <a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style=" margin-top-200px;margin-left: 360px; text-align:center; background-color:#04C5F9; color:white;"/></a>
+	  <input class="my-button" type="submit" name="submit" value="Submit" style=" text-align:center; background-color:#04C5F9; color:white;"/>
+	  <a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="text-align:center; background-color:#04C5F9; color:white;"/></a>
 		  </div> </div>
   </form>
 	  
