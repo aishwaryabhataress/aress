@@ -17,7 +17,7 @@
 	position: relative;
 	display:block;	
 }
-	  input[type=text], select, textarea {
+	  input[type=text,number,date], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -97,23 +97,23 @@ label {
     <br><br>
 	  <div class="row">
       <div class="col-25">
-	  Age </div><div class="col-75"><input type="age" name="age"></div> </div>
+	  Age </div><div class="col-75"><input type="number" name="age"></div> </div>
     <br><br>
 	    <div class="row">
       <div class="col-25">
-	      Address</div><div class="col-75"> <input type ="address" name="address"></div></div>
+	      Address</div><div class="col-75"> <input type ="text" name="address"></div></div>
     <br><br>
 	 <div class="row">
       <div class="col-25"> 
-	      Email</div><div class="col-75"> <input type="email" name="emailaddress"></div></div>
+	      Email</div><div class="col-75"> <input type="text" name="emailaddress"></div></div>
     <br><br>
 	   <div class="row">
       <div class="col-25"> 
-	      Mobile</div><div class="col-75"> <input type="tel" name="usrtel"></div></div>
+	      Mobile</div><div class="col-75"> <input type="number" name="usrtel"></div></div>
     <br><br>
 	   <div class="row">
       <div class="col-25"> 
-	  Annual Income</div><div class="col-75"> <input type="income" name="income"></div></div>
+	  Annual Income</div><div class="col-75"> <input type="number" name="income"></div></div>
 	  
      <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
@@ -139,7 +139,7 @@ label {
     <br><br>
 	   <div class="row">
       <div class="col-25">  
-	      Loan Amount</div><div class="col-75">  <input type="amount" name="amount"></div></div>
+	      Loan Amount</div><div class="col-75">  <input type="number" name="amount"></div></div>
       
 	  <br><br>
 	  <div>
