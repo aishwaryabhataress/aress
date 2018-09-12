@@ -18,7 +18,7 @@
 	display:block;	
 }
 	  input[type=text],input[type = number], input[type = date], select, textarea {
-    width: 500px;
+    width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
