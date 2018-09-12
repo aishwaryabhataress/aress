@@ -17,7 +17,7 @@
 	position: relative;
 	display:block;	
 }
-	  input[type=text,number,date], select, textarea {
+	  input[type=text],input[type = number], input[type = date], select, textarea {
     width: 500px;
     padding: 12px;
     border: 1px solid #ccc;
@@ -34,7 +34,7 @@ label {
     float: left;
     width: 25%;
     margin-top: 6px;
-		margin-left: 100px;
+	margin-left: 100px;
 }
 
 .col-75 {
