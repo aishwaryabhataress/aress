@@ -6,7 +6,7 @@
       text-align : center;
     }
     .container{
-	height:100%; 
+	height:1500 px; 
 	width:800px; 
 	align:center;
 	background-color:white; 
@@ -64,8 +64,8 @@
       
 	  <br><br>
 	  <div>
-	  <input type="submit" name="submit" value="Submit" style="margin-top: -50px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
-	  <a href="home.php"><input type="button" name="back" value="Back" style="margin-top-140px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/>
+	  <input type="submit" name="submit" value="Submit" style="margin-top: -30px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
+	  <a href="home.php"><input type="button" name="back" value="Back" style="margin-top-160px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/>
 	  </div>
   </form>
 	  
