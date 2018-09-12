@@ -90,8 +90,9 @@ label {
 		 <div style="width:15%;float:left;"> 
 			 <input type ="text" name="street" placeholder ="Street">
 			  <input type ="text" name="state" placeholder ="State">
+			  <input type ="text" name="country" placeholder ="Country">
 		 </div>
-		 <div style="width:15%;float:left;"> 
+		 <div style="width:15%;float:left;padding-left:150px;"> 
 			 <input type ="text" name="city" placeholder ="City">
 			  <input type ="text" name="postalcode" placeholder ="Postal Code">
 		 </div>
