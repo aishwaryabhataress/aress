@@ -93,9 +93,9 @@ label {
      <hr style="border: 1px solid#04C5F9;" />
 	  
     <br><br>
-	  <div class="row">
-      <div class="col-25">
-	       <label for="firstname">Name</label> </div><div class="col-75"> <input type="text" name="firstname"  required></div> </div>
+	  <div class="" style="display:inline-block;width:100%;">
+      <div class="" style="width:25%;float:left;">
+	       <label for="firstname">Name</label> </div><div class="" style="width:75%;float:left;"> <input type="text" name="firstname"  required></div> </div>
        <br><br>
 	    <div class="row">
       <div class="col-25">
