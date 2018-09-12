@@ -79,7 +79,7 @@
       
 	  <br><br>
 	  <div>
-	  <a href="#">Submit</a>   <a  href="home.php">Back</a>
+	  <a class="my-button" href="#">Submit</a>   <a class="my-button" href="home.php">Back</a>
 	  </div>
   </form>
 	  
