@@ -48,7 +48,7 @@ label {
 </head>
 	
 	<?php
-		$firstname = $lastname = $bday  = $address = $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
+		$firstname = $lastname = $bday  = $street = $city = $state = $postalcode= $country= $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
 	?>
 	
 <body>
@@ -87,8 +87,13 @@ label {
       		<div style="width:25%;float:left;text-align:right;">
 	     		<label for="address"> Address</label>
 		 </div>
-		 <div style="width:75%;float:left;"> 
-			 <input type ="text" name="address">
+		 <div style="width:15%;float:left;"> 
+			 <input type ="text" name="street" placeholder ="Street">
+			  <input type ="text" name="state" placeholder ="State">
+		 </div>
+		 <div style="width:15%;float:left;"> 
+			 <input type ="text" name="city" placeholder ="City">
+			  <input type ="text" name="postalcode" placeholder ="Postal Code">
 		 </div>
 	  </div>
     	<br><br>
