@@ -21,6 +21,21 @@
   display: inline-block;
  
 }
+	  
+	  .my-button {
+    display: inline-block;
+    margin: 5px;
+    
+    color: #333;
+    font-size: 1.5em;
+    
+    font-style: italic;
+    border-radius: 50px;
+    padding: 8px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
 </style>
   </head>
 	
@@ -64,7 +79,7 @@
       
 	  <br><br>
 	  <div>
-	  <input type="submit" name="submit" value="Submit" style="display: inline-block;float: center; margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>   <a href="home.php"><input type="button" name="back" value="Back" style="display: inline-block;float: center; margin-top-200px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/></a>
+	  <input class="my-button" type="submit" name="submit" value="Submit" style="display: inline-block;float: center; margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>   <a class="my-button" href="home.php"><input type="button" name="back" value="Back" style="display: inline-block;float: center; margin-top-200px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/></a>
 	  </div>
   </form>
 	  
