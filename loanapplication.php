@@ -21,6 +21,7 @@
     float: left;
     width: 25%;
     margin-top: 6px;
+		margin-left: 100px;
 }
 
 .col-75 {
