@@ -68,8 +68,8 @@ label {
 		</div>
 		<div style="width:35%;float:left;"> 
 			<input type="text" name="firstname" placeholder="First Name"  required>
-		</div>&nbsp;&nbsp;
-		<div style="width:35%;float:left;"> 
+		</div>
+		<div style="width:35%;float:left; padding-left:20px;"> 
 			<input type="text" name="lastname" placeholder="Last Name"  required>
 		</div>
 	  </div>
