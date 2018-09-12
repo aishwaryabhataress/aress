@@ -120,7 +120,7 @@
     <br><br>
 	   <div class="row">
       <div class="col-25">  
-	      Loan Amount</div><div class="col-75">  <input type="amount" name="amount"></div</div>
+	      Loan Amount</div><div class="col-75">  <input type="amount" name="amount"></div></div>
       
 	  <br><br>
 	  <div>
