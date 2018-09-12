@@ -55,6 +55,11 @@ label {
     clear: both;
 }
 	  
+	  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+	  
 	  .my-button {
     display: inline-block;
     margin: 5px;
@@ -69,6 +74,7 @@ label {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
+	  
 </style>
   </head>
 	
@@ -89,31 +95,31 @@ label {
     <br><br>
 	  <div class="row">
       <div class="col-25">
-	      Name </div><div class="col-75"> <input type="text" name="firstname"  required></div> </div>
+	       <label for="firstname">Name</label> </div><div class="col-75"> <input type="text" name="firstname"  required></div> </div>
        <br><br>
 	    <div class="row">
       <div class="col-25">
-	      Birth Date</div><div class="col-75"> <input type="date" name="bday" data-date-inline-picker="true"></div> </div>
+	      <label for="bday"> Birth Date</label></div><div class="col-75"> <input type="date" name="bday" data-date-inline-picker="true"></div> </div>
     <br><br>
 	  <div class="row">
       <div class="col-25">
-	  Age </div><div class="col-75"><input type="number" name="age"></div> </div>
+	      <label for="age">Age</label> </div><div class="col-75"><input type="number" name="age"></div> </div>
     <br><br>
 	    <div class="row">
       <div class="col-25">
-	      Address</div><div class="col-75"> <input type ="text" name="address"></div></div>
+	      <label for="address"> Address</label></div><div class="col-75"> <input type ="text" name="address"></div></div>
     <br><br>
 	 <div class="row">
       <div class="col-25"> 
-	      Email</div><div class="col-75"> <input type="text" name="emailaddress"></div></div>
+	      <label for="emailaddress"> Email</label></div><div class="col-75"> <input type="text" name="emailaddress"></div></div>
     <br><br>
 	   <div class="row">
       <div class="col-25"> 
-	      Mobile</div><div class="col-75"> <input type="number" name="usrtel"></div></div>
+	       <label for="usrtel">Mobile?</label></div><div class="col-75"> <input type="number" name="usrtel"></div></div>
     <br><br>
 	   <div class="row">
       <div class="col-25"> 
-	  Annual Income</div><div class="col-75"> <input type="number" name="income"></div></div>
+	      <label for="income">Annual Income</label></div><div class="col-75"> <input type="number" name="income"></div></div>
 	  
      <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
@@ -121,11 +127,11 @@ label {
     <br><br>
 	   <div class="row">
       <div class="col-25">  
-	  Loan Application Name</div><div class="col-75"> <input type="text" name="loanname"  required></div></div>
+	      <label for="loanname">Loan Application Name</label></div><div class="col-75"> <input type="text" name="loanname"  required></div></div>
     <br><br>
 	  <div class="row">
       <div class="col-25"> 
-	Loan Type </div><div class="col-75">  <select name="loantype">
+	      <label for="loantype">Loan Type</label> </div><div class="col-75">  <select name="loantype">
 	  <option value="default">Select</option>
 
 <option value="Vehicle loan">Vehicle loan</option>
@@ -139,7 +145,7 @@ label {
     <br><br>
 	   <div class="row">
       <div class="col-25">  
-	      Loan Amount</div><div class="col-75">  <input type="number" name="amount"></div></div>
+	      <label for="amount">Loan Amount</label></div><div class="col-75">  <input type="number" name="amount"></div></div>
       
 	  <br><br>
 	  <div>
