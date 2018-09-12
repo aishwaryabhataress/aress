@@ -25,8 +25,8 @@
 }
 
 .col-75 {
-    float: left;
-    width: 80%;
+    float: right;
+    width: 100%;
     margin-top: 6px;
 	margin-left: 100px;
 }
