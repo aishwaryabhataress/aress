@@ -70,7 +70,7 @@ label {
 			<input type="text" name="firstname"  required>
 		</div>
 	  </div>
-      	<br>
+      	<br><br>
 	  <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;">
 	      		<label for="bday"> Birth Date</label>
@@ -79,7 +79,7 @@ label {
 			<input type="date" name="bday" data-date-inline-picker="true">
 		</div> 
 	  </div>
-    	<br>
+    	<br><br>
 	 <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;">
 	     		<label for="address"> Address</label>
@@ -88,7 +88,7 @@ label {
 			 <input type ="text" name="address">
 		 </div>
 	  </div>
-    	<br>
+    	<br><br>
 	 <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;"> 
 	      		<label for="emailaddress"> Email</label>
@@ -97,7 +97,7 @@ label {
 			 <input type="text" name="emailaddress">
 		 </div>
 	  </div>
-    	<br>
+    	<br><br>
 	   <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;"> 
 	       		<label for="usrtel">Mobile</label>
@@ -106,7 +106,7 @@ label {
 			<input type="number" name="usrtel">
 		</div>
 	  </div>
-    	<br>
+    	<br><br>
 	  <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;"> 
 	      		<label for="income">Annual Income</label>
@@ -128,7 +128,7 @@ label {
 			<input type="text" name="loanname"  required>
 		</div>
 	  </div>
-    	<br>
+    	<br><br>
 	 <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;"> 
 	      		<label for="loantype">Loan Type</label> 
@@ -145,7 +145,7 @@ label {
 			</select>
 		  </div>
 	  </div>
-    	<br>
+    	<br><br>
 	   <div style="display:inline-block;width:100%;">
 	      	<div style="width:25%;float:left;">  
 	      		<label for="amount">Loan Amount</label>
@@ -154,7 +154,7 @@ label {
 			 <input type="number" name="amount">
 		 </div>
 	  </div>
-	<br>
+	<br><br>
 	  <div>
 	  <input class="my-button" type="submit" name="submit" value="Submit" style="display: inline-block;float: center; margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
 	  <a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="display: inline-block;float: center; margin-top-200px;margin-left: 360px; text-align:center; background-color:#04C5F9; color:white;"/></a>
