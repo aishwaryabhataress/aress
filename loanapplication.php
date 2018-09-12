@@ -28,7 +28,12 @@
     float: left;
     width: 100%;
     margin-top: 6px;
-	margin-left: 500px;
+	margin-left: 300px;
+	
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
 }
 
 
