@@ -163,6 +163,7 @@ label {
 			 <input type="number" name="amount">
 		 </div>
 	  </div>
+	  <br><br>
 	  <div style="display:inline-block;width:100%;">
 	      	<div style="width:25%;float:left;text-align:right;">  
 	      		<label for="tenure">Tenure</label>
