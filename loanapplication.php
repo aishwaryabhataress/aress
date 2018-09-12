@@ -70,7 +70,7 @@ label {
 			<input type="text" name="firstname"  required>
 		</div>
 	  </div>
-      
+      	<br>
 	  <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;">
 	      		<label for="bday"> Birth Date</label>
@@ -79,8 +79,7 @@ label {
 			<input type="date" name="bday" data-date-inline-picker="true">
 		</div> 
 	  </div>
-    
-   
+    	<br>
 	 <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;">
 	     		<label for="address"> Address</label>
@@ -89,50 +88,76 @@ label {
 			 <input type ="text" name="address">
 		 </div>
 	  </div>
-    
-	 <div class="row">
-      <div class="col-25"> 
-	      <label for="emailaddress"> Email</label></div><div class="col-75"> <input type="text" name="emailaddress"></div></div>
-    <br><br>
-	   <div class="row">
-      <div class="col-25"> 
-	       <label for="usrtel">Mobile?</label></div><div class="col-75"> <input type="number" name="usrtel"></div></div>
-    <br><br>
-	   <div class="row">
-      <div class="col-25"> 
-	      <label for="income">Annual Income</label></div><div class="col-75"> <input type="number" name="income"></div></div>
+    	<br>
+	 <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;"> 
+	      		<label for="emailaddress"> Email</label>
+		 </div>
+		 <div style="width:75%;float:left;"> 
+			 <input type="text" name="emailaddress">
+		 </div>
+	  </div>
+    	<br>
+	   <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;"> 
+	       		<label for="usrtel">Mobile</label>
+		</div>
+		<div style="width:75%;float:left;"> 
+			<input type="number" name="usrtel">
+		</div>
+	  </div>
+    	<br>
+	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;"> 
+	      		<label for="income">Annual Income</label>
+		</div>
+		<div style="width:75%;float:left;"> 
+			<input type="number" name="income">
+		</div>
+	  </div>
 	  
      <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
     <br><br>
-	   <div class="row">
-      <div class="col-25">  
-	      <label for="loanname">Loan Application Name</label></div><div class="col-75"> <input type="text" name="loanname"  required></div></div>
-    <br><br>
-	  <div class="row">
-      <div class="col-25"> 
-	      <label for="loantype">Loan Type</label> </div><div class="col-75">  <select name="loantype">
-	  <option value="default">Select</option>
-
-<option value="Vehicle loan">Vehicle loan</option>
-<option value="Home loan">Home loan</option>
-<option value="Marriage loan">Marriage loan</option>
-<option value="Education loan">Education loan</option>
-<option value="Farming loan">Farming loan</option>
-	  <option value="Work Capital loan">Work Capital loan</option>
-</select>
-		  </div></div>
-    <br><br>
-	   <div class="row">
-      <div class="col-25">  
-	      <label for="amount">Loan Amount</label></div><div class="col-75">  <input type="number" name="amount"></div></div>
-      
-	  <br><br>
+	<div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;">  
+	     		<label for="loanname">Loan Application Name</label>
+		</div>
+		<div style="width:75%;float:left;"> 
+			<input type="text" name="loanname"  required>
+		</div>
+	  </div>
+    	<br>
+	 <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;"> 
+	      		<label for="loantype">Loan Type</label> 
+		 </div>
+		 <div style="width:75%;float:left;">  
+			 <select name="loantype">
+	  			<option value="default">Select</option>
+				<option value="Vehicle loan">Vehicle loan</option>
+				<option value="Home loan">Home loan</option>
+				<option value="Marriage loan">Marriage loan</option>
+				<option value="Education loan">Education loan</option>
+				<option value="Farming loan">Farming loan</option>
+	  			<option value="Work Capital loan">Work Capital loan</option>
+			</select>
+		  </div>
+	  </div>
+    	<br>
+	   <div style="display:inline-block;width:100%;">
+	      	<div style="width:25%;float:left;">  
+	      		<label for="amount">Loan Amount</label>
+		 </div>
+		 <div style="width:75%;float:left;">  
+			 <input type="number" name="amount">
+		 </div>
+	  </div>
+	<br>
 	  <div>
 	  <input class="my-button" type="submit" name="submit" value="Submit" style="display: inline-block;float: center; margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
-
-<a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="display: inline-block;float: center; margin-top-200px;margin-left: 360px; text-align:center; background-color:#04C5F9; color:white;"/></a>
+	  <a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="display: inline-block;float: center; margin-top-200px;margin-left: 360px; text-align:center; background-color:#04C5F9; color:white;"/></a>
 	  </div>
   </form>
 	  
