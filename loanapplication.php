@@ -94,7 +94,7 @@ label {
 		 </div>
 		 <div style="width:15%;float:left;padding-left:200px;"> 
 			 <input type ="text" name="city" placeholder ="City"><br><br>
-			  <input type ="text" name="postalcode" placeholder ="Postal Code">
+			  <input type ="number" name="postalcode" placeholder ="Postal Code">
 		 </div>
 	  </div>
     	<br><br>
