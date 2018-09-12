@@ -79,7 +79,7 @@ label {
   </head>
 	
 	<?php
-		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
+		$firstname = $lastname = $bday  = $address = $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
 	?>
 	
 <body>
@@ -100,10 +100,7 @@ label {
 	    <div class="row">
       <div class="col-25">
 	      <label for="bday"> Birth Date</label></div><div class="col-75"> <input type="date" name="bday" data-date-inline-picker="true"></div> </div>
-    <br><br>
-	  <div class="row">
-      <div class="col-25">
-	      <label for="age">Age</label> </div><div class="col-75"><input type="number" name="age"></div> </div>
+    
     <br><br>
 	    <div class="row">
       <div class="col-25">
