@@ -129,15 +129,7 @@ label {
      <h2>Loan Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
     <br><br>
-	<div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;text-align:right;">  
-	     		<label for="loanname">Loan Application Name</label>
-		</div>
-		<div style="width:75%;float:left;"> 
-			<input type="text" name="loanname"  required>
-		</div>
-	  </div>
-    	<br><br>
+	
 	 <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;text-align:right;"> 
 	      		<label for="loantype">Loan Type</label> 
