@@ -25,7 +25,7 @@
   </head>
 	
 	<?php
-		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $loantype = $amount =" ";
+		$firstname = $lastname = $bday = $age = $address = $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
 	?>
 	
 <body>
@@ -43,7 +43,7 @@
     <br><br>Address: <input type ="address" name="address">
     <br><br>Email: <input type="email" name="emailaddress">
     <br><br>Mobile: <input type="tel" name="usrtel">
-    
+    <br><br>Annual Income: <input type="income" name="income">
 	  
      <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
