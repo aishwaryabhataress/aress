@@ -17,9 +17,23 @@
 	position: relative;
 	display:block;	
 }
-	  input {
-  display: inline-block;
- 
+	.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 	  
 	  .my-button {
@@ -52,19 +66,47 @@
     <hr style="border: 1px solid#04C5F9;" />
     <h2>Personal Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
-    <br><br> Name: <input type="text" name="firstname"  required>
-       <br><br>Birth Date: <input type="date" name="bday" data-date-inline-picker="true">
-    <br><br>Age: <input type="age" name="age">
-    <br><br>Address: <input type ="address" name="address">
-    <br><br>Email: <input type="email" name="emailaddress">
-    <br><br>Mobile: <input type="tel" name="usrtel">
-    <br><br>Annual Income: <input type="income" name="income">
+	  
+    <br><br>
+	  <div class="row">
+      <div class="col-25">
+	      Name </div><div class="col-75"> <input type="text" name="firstname"  required></div> </div>
+       <br><br>
+	    <div class="row">
+      <div class="col-25">
+	      Birth Date</div><div class="col-75"> <input type="date" name="bday" data-date-inline-picker="true"></div> </div>
+    <br><br>
+	  <div class="row">
+      <div class="col-25">
+	  Age </div><div class="col-75"><input type="age" name="age"></div> </div>
+    <br><br>
+	    <div class="row">
+      <div class="col-25">
+	      Address</div><div class="col-75"> <input type ="address" name="address"></div></div>
+    <br><br>
+	 <div class="row">
+      <div class="col-25"> 
+	      Email</div><div class="col-75"> <input type="email" name="emailaddress"></div></div>
+    <br><br>
+	   <div class="row">
+      <div class="col-25"> 
+	      Mobile</div><div class="col-75"> <input type="tel" name="usrtel"></div></div>
+    <br><br>
+	   <div class="row">
+      <div class="col-25"> 
+	  Annual Income</div><div class="col-75"> <input type="income" name="income"></div></div>
 	  
      <hr style="border: 1px solid#04C5F9;" />
      <h2>Loan Information</h2><br>
      <hr style="border: 1px solid#04C5F9;" />
-    <br><br> Loan Application Name: <input type="text" name="loanname"  required>
-    <br><br>Loan Type: <select name="loantype">
+    <br><br>
+	   <div class="row">
+      <div class="col-25">  
+	  Loan Application Name</div><div class="col-75"> <input type="text" name="loanname"  required></div></div>
+    <br><br>
+	  <div class="row">
+      <div class="col-25"> 
+	Loan Type </div><div class="col-75">  <select name="loantype">
 	  <option value="default">Select</option>
 
 <option value="Vehicle loan">Vehicle loan</option>
@@ -74,8 +116,11 @@
 <option value="Farming loan">Farming loan</option>
 	  <option value="Work Capital loan">Work Capital loan</option>
 </select>
-
-    <br><br>Loan Amount: <input type="amount" name="amount">
+		  </div></div>
+    <br><br>
+	   <div class="row">
+      <div class="col-25">  
+	      Loan Amount</div><div class="col-75">  <input type="amount" name="amount"></div</div>
       
 	  <br><br>
 	  <div>
