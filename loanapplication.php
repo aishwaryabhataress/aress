@@ -65,7 +65,7 @@
 	  <br><br>
 	  <div>
 	  <input type="submit" name="submit" value="Submit" style="margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
-	  <a href="home.php"><input type="button" name="back" value="Back" style="margin-top-180px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/>
+	  <a href="home.php"><input type="button" name="back" value="Back" style="margin-top-200px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/>
 	  </div>
   </form>
 	  
