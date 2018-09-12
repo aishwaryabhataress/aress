@@ -27,7 +27,7 @@
     margin: 5px;
     
     color: #333;
-    font-size: 1.5em;
+    font-size: 1em;
     
     font-style: italic;
     border-radius: 50px;
