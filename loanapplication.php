@@ -79,7 +79,9 @@
       
 	  <br><br>
 	  <div>
-	  <a class="my-button" href="#">Submit</a>   <a class="my-button" href="home.php">Back</a>
+	  <input class="my-button" type="submit" name="submit" value="Submit" style="display: inline-block;float: center; margin-top: -1px;margin-left: 350px; text-align:center; background-color:#04C5F9; color:white;"/>
+
+<input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="display: inline-block;float: center; margin-top-200px;margin-left: 450px; text-align:center; background-color:#04C5F9; color:white;"/>
 	  </div>
   </form>
 	  
