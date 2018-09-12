@@ -18,7 +18,7 @@
 	display:block;	
 }
 	  input[type=text,number,date], select, textarea {
-    width: 100%;
+    width: 500px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
