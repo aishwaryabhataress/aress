@@ -17,6 +17,19 @@
 	position: relative;
 	display:block;	
 }
+	  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
 	.col-25 {
     float: left;
     width: 25%;
@@ -30,7 +43,7 @@
     margin-top: 6px;
 	margin-left: 300px;
 	
-    padding: 12px;
+
     
    
 }
