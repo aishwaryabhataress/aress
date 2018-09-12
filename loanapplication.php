@@ -67,7 +67,8 @@ label {
 	       		<label for="firstname">Name</label> 
 		</div>
 		<div style="width:75%;float:left;"> 
-			<input type="text" name="firstname"  required>
+			<input type="text" name="firstname" placeholder="First Name"  required>
+			<input type="text" name="lastname" placeholder="Last Name"  required>
 		</div>
 	  </div>
       	<br><br>
