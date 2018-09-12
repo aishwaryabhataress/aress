@@ -25,10 +25,10 @@
 }
 
 .col-75 {
-    float: right;
+    float: left;
     width: 100%;
     margin-top: 6px;
-	margin-left: 100px;
+	margin-left: 500px;
 }
 
 
