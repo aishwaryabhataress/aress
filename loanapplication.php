@@ -48,7 +48,7 @@ label {
 </head>
 	
 	<?php
-		$firstname = $lastname = $bday  = $street = $city = $state = $postalcode= $country= $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
+		$firstname = $lastname = $bday  =$tenure = $street = $city = $state = $postalcode= $country= $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
 	?>
 	
 <body>
@@ -163,6 +163,15 @@ label {
 			 <input type="number" name="amount">
 		 </div>
 	  </div>
+	  <div style="display:inline-block;width:100%;">
+	      	<div style="width:25%;float:left;text-align:right;">  
+	      		<label for="tenure">Tenure</label>
+		 </div>
+		 <div style="width:75%;float:left;">  
+			 <input type="number" name="tenure">
+		 </div>
+	  </div>
+	  
 	<br><br>
 	  <div style="width:100%; display: inline;">
 		  <div style="width:35%;  margin: 0 auto;">
