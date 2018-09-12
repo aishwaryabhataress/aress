@@ -63,7 +63,7 @@ label {
 	  
     <br><br>
 	<div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;">
+      		<div style="width:25%; text-align: center;">
 	       		<label for="firstname">Name</label> 
 		</div>
 		<div style="width:75%;float:left;"> 
