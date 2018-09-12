@@ -72,7 +72,7 @@ label {
 	  </div>
       	<br><br>
 	  <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;">
+      		<div style="width:25%;float:left;text-align:right;">
 	      		<label for="bday"> Birth Date</label>
 		</div>
 		<div style="width:75%;float:left;">
@@ -81,7 +81,7 @@ label {
 	  </div>
     	<br><br>
 	 <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;">
+      		<div style="width:25%;float:left;text-align:right;">
 	     		<label for="address"> Address</label>
 		 </div>
 		 <div style="width:75%;float:left;"> 
@@ -90,7 +90,7 @@ label {
 	  </div>
     	<br><br>
 	 <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;"> 
+      		<div style="width:25%;float:left;text-align:right;"> 
 	      		<label for="emailaddress"> Email</label>
 		 </div>
 		 <div style="width:75%;float:left;"> 
@@ -99,7 +99,7 @@ label {
 	  </div>
     	<br><br>
 	   <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;"> 
+      		<div style="width:25%;float:left;text-align:right;"> 
 	       		<label for="usrtel">Mobile</label>
 		</div>
 		<div style="width:75%;float:left;"> 
@@ -108,7 +108,7 @@ label {
 	  </div>
     	<br><br>
 	  <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;"> 
+      		<div style="width:25%;float:left;text-align:right;"> 
 	      		<label for="income">Annual Income</label>
 		</div>
 		<div style="width:75%;float:left;"> 
@@ -121,7 +121,7 @@ label {
      <hr style="border: 1px solid#04C5F9;" />
     <br><br>
 	<div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;">  
+      		<div style="width:25%;float:left;text-align:right;">  
 	     		<label for="loanname">Loan Application Name</label>
 		</div>
 		<div style="width:75%;float:left;"> 
@@ -130,7 +130,7 @@ label {
 	  </div>
     	<br><br>
 	 <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;"> 
+      		<div style="width:25%;float:left;text-align:right;"> 
 	      		<label for="loantype">Loan Type</label> 
 		 </div>
 		 <div style="width:75%;float:left;">  
@@ -147,7 +147,7 @@ label {
 	  </div>
     	<br><br>
 	   <div style="display:inline-block;width:100%;">
-	      	<div style="width:25%;float:left;">  
+	      	<div style="width:25%;float:left;text-align:right;">  
 	      		<label for="amount">Loan Amount</label>
 		 </div>
 		 <div style="width:75%;float:left;">  
