@@ -17,7 +17,7 @@
 	position: relative;
 	display:block;	
 }
-	  input[type=text],input[type = number], input[type = date], select, textarea {
+input[type=text],input[type = number], input[type = date], select, textarea {
     width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
@@ -28,45 +28,14 @@
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-}
-
-	.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-	margin-left: 100px;
-}
-
-.col-75 {
-    float: left;
-    width: 100%;
-    margin-top: 6px;
-	margin-left: 300px;
-	
-
-    
-   
-}
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+    text-align: right;
 }
 	  
-	  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-}
-	  
-	  .my-button {
+.my-button {
     display: inline-block;
     margin: 5px;
-    
     color: #333;
     font-size: 1em;
-    
     font-style: italic;
     border-radius: 50px;
     padding: 8px 16px;
@@ -76,7 +45,7 @@ label {
 }
 	  
 </style>
-  </head>
+</head>
 	
 	<?php
 		$firstname = $lastname = $bday  = $address = $emailaddress = $usrtel = $loanname = $income = $loantype = $amount =" ";
@@ -93,19 +62,34 @@ label {
      <hr style="border: 1px solid#04C5F9;" />
 	  
     <br><br>
-	  <div class="" style="display:inline-block;width:100%;">
-      <div class="" style="width:25%;float:left;">
-	       <label for="firstname">Name</label> </div><div class="" style="width:75%;float:left;"> <input type="text" name="firstname"  required></div> </div>
-       <br><br>
-	    <div class="row">
-      <div class="col-25">
-	      <label for="bday"> Birth Date</label></div><div class="col-75"> <input type="date" name="bday" data-date-inline-picker="true"></div> </div>
+	<div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;">
+	       		<label for="firstname">Name</label> 
+		</div>
+		<div style="width:75%;float:left;"> 
+			<input type="text" name="firstname"  required>
+		</div>
+	  </div>
+      
+	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;">
+	      		<label for="bday"> Birth Date</label>
+		</div>
+		<div style="width:75%;float:left;">
+			<input type="date" name="bday" data-date-inline-picker="true">
+		</div> 
+	  </div>
     
-    <br><br>
-	    <div class="row">
-      <div class="col-25">
-	      <label for="address"> Address</label></div><div class="col-75"> <input type ="text" name="address"></div></div>
-    <br><br>
+   
+	 <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;">
+	     		<label for="address"> Address</label>
+		 </div>
+		 <div style="width:75%;float:left;"> 
+			 <input type ="text" name="address">
+		 </div>
+	  </div>
+    
 	 <div class="row">
       <div class="col-25"> 
 	      <label for="emailaddress"> Email</label></div><div class="col-75"> <input type="text" name="emailaddress"></div></div>
