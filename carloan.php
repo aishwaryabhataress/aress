@@ -36,45 +36,22 @@ label {
     $loanprincipal=$tenure="";
   ?>
 <body>
-   <!-- <div class="container">
-  <form action="loanapplication.php" method="post">
-    <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;text-align:right;"> 
-	      		<label for="loanprincipal">Loan Amount</label>
-		 </div>
-		 <div style="width:75%;float:left;"> 
-			 <input type="number" name="loanprincipal">
-		 </div>
-	  </div>
-   <br><br>
-	 <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;text-align:right;"> 
-	      		<label for="tenure"> Tenure in Months</label>
-		 </div>
-		 <div style="width:75%;float:left;"> 
-			 <input type="number" name="tenure">
-		 </div>
-	  </div>
-    <br><br>
-	<div style="display:inline;color:#333;font-size: 1em;font-style: italic;border-radius: 50px;padding: 8px 16px;background-color:#04C5F9; color:white;">
-		<button onClick="location.href='loanapplication.php'">Apply for loan</button> </div>
-  </form>
-    </div>-->
-	<div class="container">
+   
+<div class="container">
   <h2>Vertical (basic) form</h2>
-  <form action="/action_page.php">
+  <form action="loanapplication.php" method="post">
     <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="loanapplication">Loan Amount:</label>
+      <input type="number" class="form-control" id="loanprincipal" placeholder="Enter loan amount" name="loanprincipal">
     </div>
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      <label for="tenure">Tenure In Months:</label>
+      <input type="number" class="form-control" id="pwd" placeholder="Enter tenure in months" name="tenure">
     </div>
     <div class="checkbox">
       <label><input type="checkbox" name="remember"> Remember me</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default" onClick="location.href='loanapplication.php'">Apply for loan</button>
   </form>
 </div>
 
