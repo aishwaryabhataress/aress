@@ -16,6 +16,7 @@ img {vertical-align: middle;}
 }
 	.slideshow-container .bttn {
     display: inline-block;
+    top: 50%;
     position: absolute;
     background-color: #555;
     color: white;
