@@ -6,8 +6,8 @@ if (!$db)
 	exit;	
 }
 $date = date("Y-m-d");
-$Name = $firstName . " " . $lastName;
-$address=$street . " " . $city . " " . $postalcode . " " . $state . " " . $country;
+$Name = $firstName." ".$lastName;
+$address=$street." ".$city." ".$postalcode." ".$state." ".$country;
 echo $Name;
 echo $address;
 $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c,Tenure_In_Months__c, Birth_Date__c,  Address__c, Email_Id__c, Mobile__c,Name, Loan_Amount__c,Application_Submission_Date__c,Annual_Income__c) VALUES('$Name','$_POST[bday]', '$address','$_POST[emailaddress]','$_POST[usrtel]','$_POST[loantype]','$_POST[amount]','$date','$_POST[income]','$_POST[tenure]');";
