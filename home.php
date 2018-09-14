@@ -16,10 +16,8 @@ img {vertical-align: middle;}
 }
 	.slideshow-container .bttn {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
     font-size: 16px;
