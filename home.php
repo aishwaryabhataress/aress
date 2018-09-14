@@ -9,7 +9,8 @@ body {font-family: Verdana, sans-serif; margin:0}
 img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-height: 800px;
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
