@@ -20,7 +20,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-}
+}*/
 .container{
 	height:1500 px; 
 	width:850px; 
@@ -30,7 +30,7 @@
 	margin-right:auto;
 	margin-top:50px;
 	
-}*/
+}
 </style>
 </head>
   <?php
