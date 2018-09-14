@@ -14,7 +14,7 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
 }
-	.slideshow-container .button {
+	.slideshow-container .bttn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,7 +30,7 @@ img {vertical-align: middle;}
     text-align: center;
 }
 
-.slideshow-container .button:hover {
+.slideshow-container .bttn:hover {
     background-color: black;
 }
 
@@ -206,8 +206,8 @@ li a.active {
 <div class="mySlides fade">
   <div class="numbertext">1 / 6</div>
   <img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
-	<button>Car loan</button>
-	<button>Bike loan</button>
+	<button class = "bttn">Car loan</button>
+	<button class = "bttn">Bike loan</button>
   <div class="text">Caption Text</div>
 </div>
 
