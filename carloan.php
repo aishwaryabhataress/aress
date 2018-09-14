@@ -7,7 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-label {
+/*label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     text-align: right;
@@ -29,7 +29,7 @@ label {
 	margin-right:auto;
 	margin-top:50px;
 	
-}
+}*/
 </style>
 </head>
   <?php
@@ -38,7 +38,7 @@ label {
 <body>
    
 <div class="container">
-  <h2>Vertical (basic) form</h2>
+ 
   <form action="loanapplication.php" method="post">
     <div class="form-group">
       <label for="loanapplication">Loan Amount:</label>
