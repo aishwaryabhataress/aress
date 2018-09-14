@@ -187,8 +187,8 @@ li a.active {
 <div class="mySlides fade">
   <div class="numbertext">1 / 6</div>
   <img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
-	<button class="button">Car loan</button>
-	<button class="button">Bike loan</button>
+	<button>Car loan</button>
+	<button>Bike loan</button>
   <div class="text">Caption Text</div>
 </div>
 
