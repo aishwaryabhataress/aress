@@ -205,8 +205,8 @@ li a.active {
 <div class="mySlides fade">
   <div class="numbertext">1 / 6</div>
   <img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
-	<div style="display: inline-block; width:40%;">	<button class="bttn">Car loan</button>  </div>
-	<div style="display: inline-block; width:40%; margin-left: -10px;"> <button class="bttn">Bike loan</button> </div>
+	<div style="display: inline-block; width:10%;">	<button class="bttn">Car loan</button>  </div>
+	<div style="display: inline-block; width:10%; margin-left: -10px;"> <button class="bttn">Bike loan</button> </div>
   
 </div>
 
