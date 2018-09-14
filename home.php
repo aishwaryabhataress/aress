@@ -197,10 +197,7 @@ li a.active {
 
 	<nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
+     <ul class="nav navbar-nav">
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="#">Contact</a></li>
       <li><a href="#">About Us</a></li>
@@ -212,57 +209,45 @@ li a.active {
 
 	
 
-	<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 6</div>
-  <img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
-	<div style="display: inline-block; width:30%;">	<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  </div>
-	<div style="display: inline-block; width:30%; margin-left: -10px;"> <button class="bttn" onClick="location.href='loanapplication.php'">Bike loan</button> </div>
+<div class="slideshow-container">
+	<div class="mySlides fade">
+  		<div class="numbertext">1 / 6</div>
+  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
+			<div style="display: inline-block; width:30%;">	<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  </div>
+			<div style="display: inline-block; width:30%; margin-left: -10px;"> <button class="bttn" onClick="location.href='loanapplication.php'">Bike loan</button> </div>
   
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 6</div>
-  <img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%">
- 
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;">
- 
-</div>
+		</div>
+		<div class="mySlides fade">
+  			<div class="numbertext">2 / 6</div>
+  				<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%">
+ 			</div>
+			<div class="mySlides fade">
+  				<div class="numbertext">3 / 6</div>
+  					<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;">
+				</div>
 		
-<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;">
+				<div class="mySlides fade">
+  					<div class="numbertext">4 / 6</div>
+  						<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;">
+ 					</div>
+				<div class="mySlides fade">
+  					<div class="numbertext">5 / 6</div>
+  						<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;">
  
-</div>
-	
-<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;">
- 
-</div>
-		
-<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;">
-  
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+					</div>
+					<div class="mySlides fade">
+  						<div class="numbertext">6 / 6</div>
+  							<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;">
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+					<br>
+				<div style="text-align:center">
+  					<span class="dot" onclick="currentSlide(1)"></span> 
+  					<span class="dot" onclick="currentSlide(2)"></span> 
+  					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
 
 	
 	
@@ -314,11 +299,5 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>	
-	
-	
-	
-
-
-
 </body>
 </html>
