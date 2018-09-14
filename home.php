@@ -17,7 +17,7 @@ img {vertical-align: middle;}
 	.slideshow-container .bttn {
     display: inline-block;
     top: 80%;
-    margin-left: 500px;
+    margin-left: 200px;
     position: absolute;
     background-color: #555;
     color: white;
@@ -206,7 +206,7 @@ li a.active {
   <div class="numbertext">1 / 6</div>
   <img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
 	<div style="display: inline-block; width:50%;">	<button class="bttn">Car loan</button>  </div>
-	<div style="display: inline-block; width:50%; margin-left: -100px;"> <button class="bttn">Bike loan</button> </div>
+	<div style="display: inline-block; width:50%; margin-left: -50px;"> <button class="bttn">Bike loan</button> </div>
   
 </div>
 
