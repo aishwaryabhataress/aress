@@ -51,7 +51,8 @@ label {
 		 </div>
 	  </div>
     <br><br>
-	<div style="display:inline;">
+	<div style="display:inline;color: #333;font-size: 1em;font-style: italic;border-radius: 50px;padding: 8px 16px;-moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;transition: all 0.2s;">
 		<button onClick="location.href='loanapplication.php'">Apply for loan</button> </div>
   </form>
     </div>
