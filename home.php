@@ -198,7 +198,7 @@ li a.active {
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://qbera.com/blog/wp-content/uploads/2017/12/marriage-loan-1024x680.jpg" style="width:100%">
+  <img src="https://qbera.com/blog/wp-content/uploads/2017/12/marriage-loan-1024x680.jpg" style="width:100% height: 500px;">
   <div class="text">Caption Three</div>
 </div>
 
