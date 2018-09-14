@@ -9,8 +9,8 @@ $date = date("Y-m-d");
 
 $Name = $firstname." ".$lastname;
 $address=$street." ".$city." ".$postalcode." ".$state." ".$country;
-echo "$Name";
-echo "$address";
+echo "$firstname";
+echo "$street";
 $query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c,Tenure_In_Months__c, Birth_Date__c,  Address__c, Email_Id__c, Mobile__c,Name, Loan_Amount__c,Application_Submission_Date__c,Annual_Income__c) VALUES('$Name','$_POST[bday]', '$address','$_POST[emailaddress]','$_POST[usrtel]','$_POST[loantype]','$_POST[amount]','$date','$_POST[income]','$_POST[tenure]');";
 //$query = "INSERT INTO salesforce.Loan_Application__c(Applicant_Name__c, Birth_Date__c, Age__c, Address__c, Email_Id__c, Mobile__c,Name, Loan_Type__c, Loan_Amount__c) VALUES('Shamal Dorge','1996-06-25', '22', 'Pune','sdd@gmail.com','1234567890','home loan','Home loan','123333');";
 
