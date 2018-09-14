@@ -6,7 +6,8 @@ if (!$db)
 	exit;	
 }
 $date = date("Y-m-d");
-$Name = $firstName." ".$lastName;
+
+$Name = $firstname." ".$lastname;
 $address=$street." ".$city." ".$postalcode." ".$state." ".$country;
 echo "$Name";
 echo "$address";
