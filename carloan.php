@@ -1,7 +1,8 @@
 <html>
 <title>Car Loan</title>
 <head>
-	<meta charset="utf-8">
+	
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -46,11 +47,9 @@
     </div>
     <div class="form-group">
       <label for="tenure">Tenure In Months:</label>
-      <input type="number" class="form-control" id="pwd" placeholder="Enter tenure in months" name="tenure">
+      <input type="number" class="form-control" id="tenure" placeholder="Enter tenure in months" name="tenure">
     </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
-    </div>
+   
     <button type="submit" class="btn btn-default" onClick="location.href='loanapplication.php'">Apply for loan</button>
   </form>
 </div>
