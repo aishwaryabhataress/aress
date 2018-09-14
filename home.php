@@ -83,7 +83,7 @@ li a.active {
 	
 	
 	
-	<div>
+	/*<div>
 <img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:280px;border-radius:40px; margin-top:90px;"/> 
 <div class="para">
 <p>
@@ -95,7 +95,7 @@ li a.active {
 
 </p>
 </div>
-</div>
+</div>*/
 	
 <br><br><br>	
 	
