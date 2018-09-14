@@ -271,7 +271,7 @@ li a.active {
 	
 <br><br><br>	
 	
-<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" float:center; margin-left:700px; margin-top: 100px; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   
+<!--<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" float:center; margin-left:700px; margin-top: 100px; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   -->
 
 	
 <script>
