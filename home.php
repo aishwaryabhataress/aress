@@ -195,13 +195,12 @@ li a.active {
 	</div>
 </div>
 
-	<nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
      <ul class="nav navbar-nav">
       <li class="active"><a href="home.php">Home</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About Us</a></li>
-     
+      <li><a href="home.php">Contact</a></li>
+      <li><a href="index.php">About Us</a></li>
     </ul>
   </div>
 </nav>
@@ -225,7 +224,6 @@ li a.active {
   				<div class="numbertext">3 / 6</div>
   					<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;">
 				</div>
-		
 				<div class="mySlides fade">
   					<div class="numbertext">4 / 6</div>
   						<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;">
@@ -233,8 +231,7 @@ li a.active {
 				<div class="mySlides fade">
   					<div class="numbertext">5 / 6</div>
   						<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;">
- 
-					</div>
+ 					</div>
 					<div class="mySlides fade">
   						<div class="numbertext">6 / 6</div>
   							<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;">
@@ -248,7 +245,6 @@ li a.active {
   					<span class="dot" onclick="currentSlide(2)"></span> 
   					<span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
-
 	
 	
 	
