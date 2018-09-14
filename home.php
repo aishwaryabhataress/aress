@@ -198,7 +198,7 @@ li a.active {
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="https://qbera.com/blog/wp-content/uploads/2017/12/marriage-loan-800x240.jpg" style="width:100% height: 500px;">
+  <img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;">
   <div class="text">Caption Three</div>
 </div>
 
