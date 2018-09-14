@@ -19,13 +19,11 @@ label {
 	height:1500 px; 
 	width:850px; 
 	align:center;
-	background-color:white; 
-	border: 3px solid black; 
+	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
-	position: relative;
-	display:block;	
+	
 }
 </style>
 </head>
@@ -35,13 +33,26 @@ label {
 <body>
     <div class="container">
   <form action="loanapplication.php" method="post">
-    <label for="loanprincipal">Loan Amount</label>
-    <input type="number" name="loanprincipal">
-    <br>
-    <label for="tenure">Tenure In Months</label>
-    <input type="number" name="tenure">
-    <br>
-    <button onClick="location.href='loanapplication.php'">Apply for loan</button>
+    <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;"> 
+	      		<label for="loanprincipal">Loan Amount</label>
+		 </div>
+		 <div style="width:75%;float:left;"> 
+			 <input type="number" name="loanprincipal">
+		 </div>
+	  </div>
+   <br><br>
+	 <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;"> 
+	      		<label for="tenure"> Tenure in Months</label>
+		 </div>
+		 <div style="width:75%;float:left;"> 
+			 <input type="number" name="tenure">
+		 </div>
+	  </div>
+    <br><br>
+	<div style="display:inline;">
+		<button onClick="location.href='loanapplication.php'">Apply for loan</button> </div>
   </form>
     </div>
 </body>
