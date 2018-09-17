@@ -61,11 +61,9 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 
 .text {
   color: #f2f2f2;
@@ -188,7 +186,7 @@ li a.active {
 <body>
 <div class="header">
 	<div class="logo">
-		<img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" style="height:100px;width:200px;">
+		<img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" class="img-responsive" style="height:100px;width:200px;">
 			<a href="index.php"><button class="button" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
 	</div>
 </div>
@@ -209,7 +207,7 @@ li a.active {
 <div class="slideshow-container">
 	<div class="mySlides fade">
   		<div class="numbertext">1 / 6</div>
-  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%">
+  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive">
 			<div style="display: inline-block; width:30%;">	
 				<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  
 			</div>
@@ -219,23 +217,23 @@ li a.active {
   		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">2 / 6</div>
-  				<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%">
+  				<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
  		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">3 / 6</div>
-  				<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;">
+  				<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;" class="img-responsive">
 			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">4 / 6</div>
-  				<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;">
+  				<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;" class="img-responsive">
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">5 / 6</div>
-  				<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;">
+  				<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;" class="img-responsive">
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">6 / 6</div>
-  				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;">
+  				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;" class="img-responsive">
 			</div>
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -250,7 +248,7 @@ li a.active {
 	
 	
 <div>
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:280px;border-radius:40px; margin-top:90px;"/> 
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:280px;border-radius:40px; margin-top:90px;" class="img-responsive"/> 
 	<div class="para">
 		<p>
 		 Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
