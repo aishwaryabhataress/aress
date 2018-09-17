@@ -30,7 +30,7 @@ height:150px;
 width:275px;
 margin-left:auto;
 margin-right:auto;
-margin-top:auto;
+//margin-top:auto;
 padding-top:20px;
 }
 .credentials{
