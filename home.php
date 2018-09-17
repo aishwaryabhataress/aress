@@ -192,8 +192,8 @@ li a.active {
 </div>
 
 <nav class="navbar navbar-default">
-  <div class="col-sm-12">
-     <ul class="nav navbar-nav">
+  <div class="container-fluid">
+     <ul class="col-sm-12">
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="home.php">Contact</a></li>
       <li><a href="index.php">About Us</a></li>
