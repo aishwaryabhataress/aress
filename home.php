@@ -207,20 +207,20 @@ li a.active {
 	
 
 <div class="slideshow-container">
+<div class="mySlides fade">
+	<div class="numbertext">1 / 6</div>
+		<div class="col-sm-12">
+		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
+		<div style="display: inline-block; width:30%;">	
+			<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  
+		</div>
+		<div style="display: inline-block; width:30%; margin-left: -10px;"> 
+			<button class="bttn" onClick="location.href='loanapplication.php'">Bike loan</button> 
+		</div>
+	</div>
 	<div class="mySlides fade">
-  		<div class="numbertext">1 / 6</div>
-			<div class="col-sm-12">
-  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
-			<div style="display: inline-block; width:30%;">	
-				<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  
-			</div>
-			<div style="display: inline-block; width:30%; margin-left: -10px;"> 
-				<button class="bttn" onClick="location.href='loanapplication.php'">Bike loan</button> 
-			</div>
-  		</div>
-		<div class="mySlides fade">
-  			<div class="numbertext">2 / 6</div>
-  				<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
+		<div class="numbertext">2 / 6</div>
+			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
  		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">3 / 6</div>
@@ -250,8 +250,10 @@ li a.active {
 	
 	
 	
-<div>
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="width:400px; height:280px;border-radius:40px; margin-top:90px;" class="img-responsive"/> 
+<div class="col-sm-12">
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
+	</div>
+	
 	<div class="para col-sm-12" >
 		<p>
 		 Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
@@ -261,7 +263,7 @@ li a.active {
 		Typically, these consumers are seeking small-denomination loans … to finance the purchase of a specific equipment, or the capital to start a small business."
 		</p>
 	</div>
-</div>
+
 	
 <br><br><br>	
 	
