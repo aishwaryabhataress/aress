@@ -6,7 +6,7 @@ if (!$db)
 	exit;	
 }
 $date = date("Y-m-d");
-$status = 'New';
+$status = "New";
 //$Name = $_POST['firstname']." ".$_POST['lastname'];
 $address=$_POST['street']." ".$_POST['city']." ".$_POST['postalcode']." ".$_POST['state']." ".$POST['country'];
 //echo $Name;
