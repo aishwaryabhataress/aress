@@ -190,9 +190,9 @@ li a.active {
 	</div>
 </div>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="width:100%;">
   <div class="col-sm-12">
-     <ul class="col-sm-12" style="width:100%;">
+     <ul class="col-sm-12" >
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="home.php">Contact</a></li>
       <li><a href="index.php">About Us</a></li>
