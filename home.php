@@ -187,7 +187,7 @@ li a.active {
 <div class="header">
 	<div class="logo">
 		<img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" class="img-responsive" style="height:100px;width:200px;">
-			<a href="index.php"><button class="btn btn-primary" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
+			<a href="index.php"><button class="btn btn-default" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
 	</div>
 </div>
 
