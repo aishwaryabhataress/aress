@@ -20,7 +20,7 @@ border: 2px solid black;
 border-radius:100px;
 margin-left:auto;
 margin-right:auto;
-//margin-top:200px;
+margin-top:100px;
 position: relative;
 display:block;	
 }
