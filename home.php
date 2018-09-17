@@ -185,14 +185,14 @@ li a.active {
 
 <body>
 <div class="header">
-	<div class="logo">
+	<div class="col-sm-12">
 		<img src="https://image3.mouthshut.com/images/imagesp/925609709s.jpg" alt="Aress Picture" class="img-responsive" style="height:100px;width:200px;">
 			<a href="index.php"><button class="btn btn-link" type="logout" name="action" value="logout" style="border-radius:10px;font-size: 12px;text-align:center; float:right; background-color:#04C5F9; color:white;">Log Out</button> </a>
 	</div>
 </div>
 
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="col-sm-12">
      <ul class="nav navbar-nav">
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="home.php">Contact</a></li>
