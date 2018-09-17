@@ -250,8 +250,9 @@ li a.active {
 	
 	
 	
-<div class="col-sm-12">
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
+<div class="col-sm-12" style=" background-image: url("http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg");">
+	
+	<!--<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> --><!--width:400px; height:280px;-->
 	</div>
 	
 	<div class="para col-sm-12" >
