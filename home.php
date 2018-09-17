@@ -250,9 +250,9 @@ li a.active {
 	
 	
 	
-<div class="col-sm-12" style=" background-image: url("http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg");">
+<div class="col-sm-12" >
 	
-	<!--<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> --><!--width:400px; height:280px;-->
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
 	</div>
 	
 	<div class="para col-sm-12" >
@@ -266,7 +266,7 @@ li a.active {
 	</div>
 
 	
-<br><br><br>	
+	
 	
 <!--<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" float:center; margin-left:700px; margin-top: 100px; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   -->
 
