@@ -24,13 +24,12 @@ img {vertical-align: middle;}
 .slideshow-container .bttn {
     display: inline-block;
     top: 80%;
-    margin-left: 300px;
+    margin-left: 190px;
     position: absolute;
     background-color: #555;
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
-    border: none;
+     border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
@@ -207,7 +206,8 @@ li a.active {
 <div class="slideshow-container">
 	<div class="mySlides fade">
   		<div class="numbertext">1 / 6</div>
-  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive">
+			<div class="col-sm-12">
+  			<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
 			<div style="display: inline-block; width:30%;">	
 				<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  
 			</div>
