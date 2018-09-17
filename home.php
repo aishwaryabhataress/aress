@@ -204,7 +204,7 @@ li a.active {
 </nav>
 <br>
 
-	
+	 
 
 <div class="slideshow-container">
 <div class="mySlides fade">
