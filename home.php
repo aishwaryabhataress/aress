@@ -192,7 +192,7 @@ li a.active {
 
 <nav class="navbar navbar-default">
   <div class="col-sm-12">
-     <ul class="col-sm-12">
+     <ul class="col-sm-12" style="width:100%;">
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="home.php">Contact</a></li>
       <li><a href="index.php">About Us</a></li>
