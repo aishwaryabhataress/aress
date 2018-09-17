@@ -116,8 +116,8 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
-
-
+	
+	
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
@@ -177,7 +177,10 @@ li a.active {
      font-style: oblique;
      text-align:justify;
 }
-     
+
+	.col-sm-12{
+		width:100%;
+	}
 	
 </style>
 </head>
