@@ -192,7 +192,7 @@ li a.active {
 </div>
 
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="col-sm-12">
      <ul class="col-sm-12">
       <li class="active"><a href="home.php">Home</a></li>
       <li><a href="home.php">Contact</a></li>
