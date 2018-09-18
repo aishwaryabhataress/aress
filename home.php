@@ -43,14 +43,21 @@ img {vertical-align: middle;}
 }
 
 
-.prev, .next {
+.prev {
+  cursor: pointer;
+  width: auto;
+  margin-top: -22px;
+  color: black;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
   cursor: pointer;
   width: auto;
   padding: 74px;
   margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+  color: black;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
