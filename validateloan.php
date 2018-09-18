@@ -5,6 +5,10 @@ if (!$db)
 	echo "An error occurred.\n";
 	exit;	
 }
-
+ //$loanprincipal=$tenure=$annualincome="";
+echo "$_POST['carloan']";
+$principal = $_POST['loanprincipal'];
+$ten = $_POST['tenure'];
+$incme = $_POST['annualincome'];
 
 ?>
