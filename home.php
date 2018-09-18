@@ -219,8 +219,9 @@ li a.active {
 	<div class="numbertext">1 / 6</div>
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
-		<div style="display: inline-block; width:30%;">	
-			<button class="bttn" onClick="location.href='carloan.php'" value="carloan" name="carloan">Car loan</button>  
+		<div style="display: inline-block; width:30%;">
+			<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a>
+			<!--<button class="bttn" onClick="location.href='carloan.php'" value="carloan" name="carloan">Car loan</button>  -->
 		</div>
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
