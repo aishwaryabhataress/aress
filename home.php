@@ -45,7 +45,7 @@ img {vertical-align: middle;}
 
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  
   top: 50%;
   width: auto;
   padding: 16px;
