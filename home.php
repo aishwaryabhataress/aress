@@ -205,7 +205,7 @@ li a.active {
 	</script>
 </head>
 <?php
-	//$bikeloan = $carloan="";
+	$bikeloan = $carloan="";
 	?>
 <body>
 <div class="header">
@@ -227,7 +227,7 @@ li a.active {
 <br>
 
 	 
-
+<form method="POST">
 <div class="slideshow-container">
 <div class="mySlides fade">
 	
@@ -236,7 +236,7 @@ li a.active {
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
 		<div style="display: inline-block; width:30%;">
 			<!--<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a> onClick="location.href='carloan.php'"-->
-			<a href="carloan.php"><button class="bttn"  onClick="OnClickButton()" value="carloan" id="carloan" name="carloan">Car loan</button>  </a>
+		<button class="bttn"   onClick="location.href='carloan.php'" value="carloan" id="carloan" name="carloan">Car loan</button> 
 		</div>
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
@@ -310,7 +310,7 @@ li a.active {
 	</div>
 	</div>
 	
-	
+</form>	
 	
 	
 	
@@ -355,7 +355,5 @@ li a.active {
 </body>
 </html>
 <?php
-	$_SESSION['carloan']= $carloan;
-echo $_SESSION['carloan'];
-echo "Hiiiiiiiiii";
+	
 ?>
