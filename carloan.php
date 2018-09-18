@@ -34,10 +34,12 @@
 </style>
 </head>
   <?php
+	session_start();
 	echo $_GET['carloan'];
 	$button_value = $_GET['carloan'];
 	echo $button_value;
 	
+    $_SESSION["favcolor"] = $button_value;
     $loanprincipal=$tenure=$annualincome="";
 	
   ?>
