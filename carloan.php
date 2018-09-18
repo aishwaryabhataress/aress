@@ -22,13 +22,13 @@
     resize: vertical;
 }*/
 .container{
-	height:1500 px; 
-	width:850px; 
-	align:center;
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:50px;
+	  /*  height: 1500px;
+     width: 850px; 
+    align: center;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 	
 }
 </style>
