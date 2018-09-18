@@ -228,22 +228,40 @@ li a.active {
 		
 		<div class="numbertext">2 / 6</div>
 			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
- 		</div>
+ 			<div style="display: inline-block; width:30%;">	
+				<button class="bttn" onClick="location.href='carloan.php'">Personal homeloan</button>  
+			</div>
+			<div style="display: inline-block; width:30%; margin-left: -10px;"> 
+				<button class="bttn" onClick="location.href='loanapplication.php'">Commercial homeloan</button> 
+			</div>	
+		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">3 / 6</div>
   				<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;" class="img-responsive">
+				<div style="display: inline-block; width:30%;">	
+					<button class="bttn" onClick="location.href='carloan.php'">Marriage loan</button>  
+				</div>
 			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">4 / 6</div>
   				<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;" class="img-responsive">
+				<div style="display: inline-block; width:30%;">	
+					<button class="bttn" onClick="location.href='carloan.php'">Education loan</button>  
+				</div>
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">5 / 6</div>
   				<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;" class="img-responsive">
+				<div style="display: inline-block; width:30%;">	
+					<button class="bttn" onClick="location.href='carloan.php'">Farming loan</button>  
+				</div>
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">6 / 6</div>
   				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;" class="img-responsive">
+				<div style="display: inline-block; width:30%;">	
+					<button class="bttn" onClick="location.href='carloan.php'">Work Capital loan</button>  
+				</div>
 			</div>
 			
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
