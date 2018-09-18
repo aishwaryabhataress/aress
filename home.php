@@ -194,7 +194,7 @@ li a.active {
 		$("button").click(function() {
     		var fired_button = $("button").val();
     		alert(fired_button);
-		//window.location.href = "validateloan.php?button_val=" + fired_button;
+		window.location.href = "validateloan.php?button_val=" + fired_button;
 	});
 	</script>
 </head>
