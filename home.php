@@ -241,17 +241,17 @@ li a.active {
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	
-	
-	<div class="col-sm-12" >
-	
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
-	</div>
 	<div style="text-align:center">
   		<span class="dot" onclick="currentSlide(1)"></span> 
   		<span class="dot" onclick="currentSlide(2)"></span> 
   		<span class="dot" onclick="currentSlide(3)"></span> 
 	</div>
-	<div class="para col-sm-12" >
+	<div class="col-sm-12 col-lg-4 col-lg-4" >
+	
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
+	</div>
+	
+	<div class="para col-sm-12 col-lg-8 col-lg-8" >
 		<p>
 		 Microfinance, also known as microcredit, is a financial service that offers loans, savings and insurance to entrepreneurs and small business owners who don't have access to traditional sources of capital, like banks or investors. 
 		The goal of microfinancing is to provide individuals with money to invest in themselves or their business.
