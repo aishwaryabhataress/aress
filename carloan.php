@@ -34,10 +34,11 @@
 </style>
 </head>
   <?php
+	 echo $_POST['carloan'];
     $loanprincipal=$tenure=$annualincome="";
   ?>
 <body>
-   
+  
 <div class="container">
  
   <form action="validateloan.php" method="post">
