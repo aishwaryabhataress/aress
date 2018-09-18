@@ -45,8 +45,6 @@ img {vertical-align: middle;}
 
 .prev {
   cursor: pointer;
-  width: auto;
-  margin-top: -22px;
   color: black;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -68,10 +66,10 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+<!--.prev:hover, .next:hover {
   background-color: #ffffff;
     opacity: .4;
-}
+}-->
 
 .text {
   color: #f2f2f2;
