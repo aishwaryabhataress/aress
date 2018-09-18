@@ -53,8 +53,9 @@
       <label for="tenure">Annual Income:</label>
       <input type="number" class="form-control" id="annualincome" placeholder="Enter Annual Income" name="annualincome">
     </div>
+	  <button type="submit" class="btn btn-default" onClick="location.href='loanapplication.php'">Apply for loan</button>
    </form>
-	<button type="submit" class="btn btn-default" onClick="location.href='loanapplication.php'">Apply for loan</button>
+	
 	<button type="back" class="btn btn-default" onClick="location.href='home.php'">Back</button>
 </div>
 
