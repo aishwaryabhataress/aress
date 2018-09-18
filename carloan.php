@@ -34,7 +34,7 @@
 </style>
 </head>
   <?php
-    $loanprincipal=$tenure="";
+    $loanprincipal=$tenure=$annualincome="";
   ?>
 <body>
    
@@ -48,6 +48,10 @@
     <div class="form-group">
       <label for="tenure">Tenure In Months:</label>
       <input type="number" class="form-control" id="tenure" placeholder="Enter tenure in months" name="tenure">
+    </div>
+     <div class="form-group">
+      <label for="tenure">Annual Income:</label>
+      <input type="number" class="form-control" id="annualincome" placeholder="Enter Annual Income" name="annualincome">
     </div>
    
     <button type="submit" class="btn btn-default" onClick="location.href='loanapplication.php'">Apply for loan</button>
