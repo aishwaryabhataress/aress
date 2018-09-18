@@ -24,8 +24,8 @@ img {vertical-align: middle;}
 .slideshow-container .bttn {
      /* display: inline-block; */
     /* top: 80%; */
-    left: 50%;
-    bottom: 30px;
+    left: 110%;
+    bottom: 39px;
     /* margin-left: 190px; */
     z-index: 1111;
     position: relative;
@@ -229,10 +229,10 @@ li a.active {
 		<div class="numbertext">2 / 6</div>
 			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
  			<div style="display: inline-block; width:30%;">	
-				<button class="bttn" onClick="location.href='carloan.php'">Personal homeloan</button>  
+				<button class="bttn" onClick="location.href='carloan.php'">Personal</button>  
 			</div>
-			<div style="display: inline-block; width:30%; margin-left: -10px;"> 
-				<button class="bttn" onClick="location.href='loanapplication.php'">Commercial homeloan</button> 
+			<div style="display: inline-block; width:30%; margin-left: 10px;"> 
+				<button class="bttn" onClick="location.href='loanapplication.php'">Commercial</button> 
 			</div>	
 		</div>
 		<div class="mySlides fade">
