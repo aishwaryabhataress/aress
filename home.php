@@ -6,6 +6,8 @@
  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <style>
 
 * {box-sizing: border-box}
@@ -188,6 +190,13 @@ li a.active {
 	}
 	
 </style>
+	<script>
+		$("button").click(function() {
+    		var fired_button = $(this).val();
+    		alert(fired_button);
+		window.location.href = "validateloan.php?button_val=" + fired_button;
+	});
+	</script>
 </head>
 <?php
 	//$bikeloan = $carloan="";
