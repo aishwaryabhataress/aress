@@ -6,7 +6,8 @@ if (!$db)
 	exit;	
 }
  //$loanprincipal=$tenure=$annualincome="";
-echo $_POST["carloan"];
+$carloan = $_SESSION['carloan'];
+echo $carloan;
 $principal = $_POST['loanprincipal'];
 $ten = $_POST['tenure'];
 $incme = $_POST['annualincome'];
