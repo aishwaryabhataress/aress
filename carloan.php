@@ -38,7 +38,7 @@
 	echo $_GET['carloan'];
 	$button_value = $_GET['carloan'];
 	echo $button_value;
-	
+	echo 'hhh';
     $_SESSION["favcolor"] = $button_value;
     $loanprincipal=$tenure=$annualincome="";
 	
