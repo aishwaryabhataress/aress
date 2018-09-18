@@ -6,7 +6,8 @@ if (!$db)
 	exit;	
 }
  //$loanprincipal=$tenure=$annualincome="";
-echo $_GET['button_val'];
+$value = $_GET['button_val'];
+echo $value;
 $carloan = $_POST['carloan'];
 echo $carloan;
 $principal = $_POST['loanprincipal'];
