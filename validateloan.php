@@ -10,5 +10,5 @@ echo $_POST['carloan'];
 $principal = $_POST['loanprincipal'];
 $ten = $_POST['tenure'];
 $incme = $_POST['annualincome'];
-
+echo $_POST['annualincome'];
 ?>
