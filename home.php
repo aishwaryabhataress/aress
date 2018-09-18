@@ -246,7 +246,11 @@ li a.active {
 	<div style="text-align:center">
   		<span class="dot" onclick="currentSlide(1)"></span> 
   		<span class="dot" onclick="currentSlide(2)"></span> 
-  		<span class="dot" onclick="currentSlide(3)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+		<span class="dot" onclick="currentSlide(6)"></span>
+		
 	</div>
 	<div class="col-sm-12 col-lg-4 col-lg-4" >
 	
