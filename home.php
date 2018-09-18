@@ -190,7 +190,7 @@ li a.active {
 </style>
 </head>
 <?php
-	$bikeloan = $carloan="";
+	//$bikeloan = $carloan="";
 	?>
 <body>
 <div class="header">
