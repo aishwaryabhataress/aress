@@ -227,7 +227,7 @@ li a.active {
 <br>
 
 	 
-<form action="carloan.php" method="POST">
+<form action="carloan.php" method="GET">
 <div class="slideshow-container">
 <div class="mySlides fade">
 	
