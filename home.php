@@ -220,6 +220,8 @@ li a.active {
 		</div>
 	</div>
 	<div class="mySlides fade">
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 		<div class="numbertext">2 / 6</div>
 			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
  		</div>
@@ -239,8 +241,7 @@ li a.active {
   			<div class="numbertext">6 / 6</div>
   				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;" class="img-responsive">
 			</div>
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
 	
 	<div style="text-align:center">
   		<span class="dot" onclick="currentSlide(1)"></span> 
