@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <html>
 	<title> Home Page </title>
 <head>
@@ -350,5 +355,5 @@ li a.active {
 </body>
 </html>
 <?php
-	$_SESSION['carloan']= $_GET['carloan'];
+	$_SESSION['carloan']= $carloan;
 ?>
