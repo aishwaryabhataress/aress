@@ -10,7 +10,7 @@ if (!$db)
  //$loanprincipal=$tenure=$annualincome="";
 
 
-echo $_POST['carloan'];
+echo $_GET['carloan'];
 $principal = $_POST['loanprincipal'];
 $ten = $_POST['tenure'];
 $incme = $_POST['annualincome'];
