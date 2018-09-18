@@ -58,7 +58,8 @@
    </form>
 	
 	<button type="back" class="btn btn-default" onClick="location.href='home.php'">Back</button>
+	
 </div>
-
+<input type="hidden" name="carloan" value="<?php $_POST['carloan'] ?>" />
 </body>
 </html>
