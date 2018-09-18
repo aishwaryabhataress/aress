@@ -209,8 +209,7 @@ li a.active {
 
 <div class="slideshow-container">
 <div class="mySlides fade">
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
 	<div class="numbertext">1 / 6</div>
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
@@ -243,7 +242,9 @@ li a.active {
   				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;" class="img-responsive">
 			</div>
 			
-	
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<br>
 	<div style="text-align:center">
   		<span class="dot" onclick="currentSlide(1)"></span> 
   		<span class="dot" onclick="currentSlide(2)"></span> 
