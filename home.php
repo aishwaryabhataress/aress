@@ -198,7 +198,7 @@ li a.active {
 		function OnClickButton() {
 		var fired_button = $("button").val();
     		alert(fired_button);
-		//window.location.href = "validateloan.php?button_val=" + fired_button;
+		window.location.href = "validateloan.php?button_val=" + fired_button;
 	});
 	</script>
 </head>
@@ -233,8 +233,8 @@ li a.active {
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
 		<div style="display: inline-block; width:30%;">
-			<!--<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a>-->
-			<button class="bttn" onClick="location.href='carloan.php'" onClick="OnClickButton()" value="carloan" id="carloan" name="carloan">Car loan</button>  
+			<!--<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a> onClick="location.href='carloan.php'"-->
+			<a href="carloan.php"><button class="bttn"  onClick="OnClickButton()" value="carloan" id="carloan" name="carloan">Car loan</button>  </a>
 		</div>
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
