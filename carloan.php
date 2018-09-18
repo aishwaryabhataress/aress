@@ -34,7 +34,10 @@
 </style>
 </head>
   <?php
-	 echo $_GET['carloan'];
+	echo $_GET['carloan'];
+	$button_value = $_GET['carloan'];
+	echo $button_value;
+	
     $loanprincipal=$tenure=$annualincome="";
 	
   ?>
