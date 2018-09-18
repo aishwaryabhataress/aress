@@ -173,7 +173,7 @@ li a.active {
      border-style: hidden;
      border-width: 10px;
      
-     padding-left: 80px;
+     padding: 10px;
     
      font-style: oblique;
      text-align:justify;
