@@ -191,10 +191,41 @@ li a.active {
 	
 </style>
 	<script type="text/javascript">
-		$("button").click(function() {
-    		var fired_button = $("button").val();
+		
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+  			   }
+  	  for (i = 0; i < dots.length; i++) {
+  	    dots[i].className = dots[i].className.replace(" active", "");
+  	  }
+  		slides[slideIndex-1].style.display = "block";  
+  		dots[slideIndex-1].className += " active";
+	}
+		
+		
+		
+		
+		function OnClickButton() {
+		var fired_button = $("button").val();
     		alert(fired_button);
-		window.location.href = "validateloan.php?button_val=" + fired_button;
+		//window.location.href = "validateloan.php?button_val=" + fired_button;
 	});
 	</script>
 </head>
@@ -230,7 +261,7 @@ li a.active {
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
 		<div style="display: inline-block; width:30%;">
 			<!--<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a>-->
-			<button class="bttn" onClick="location.href='carloan.php'" value="carloan" id="carloan" name="carloan">Car loan</button>  
+			<button class="bttn" onClick="location.href='carloan.php'" onClick="OnClickButton()" value="carloan" id="carloan" name="carloan">Car loan</button>  
 		</div>
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
@@ -317,32 +348,6 @@ li a.active {
 
 	
 <script>
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	function plusSlides(n) {
-	  showSlides(slideIndex += n);
-	}
-
-	function currentSlide(n) {
-	  showSlides(slideIndex = n);
-	}
-
-	function showSlides(n) {
-	  var i;
-	  var slides = document.getElementsByClassName("mySlides");
-	  var dots = document.getElementsByClassName("dot");
-	  if (n > slides.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = slides.length}
-			  for (i = 0; i < slides.length; i++) {
-			      slides[i].style.display = "none";  
-  			   }
-  	  for (i = 0; i < dots.length; i++) {
-  	    dots[i].className = dots[i].className.replace(" active", "");
-  	  }
-  		slides[slideIndex-1].style.display = "block";  
-  		dots[slideIndex-1].className += " active";
-	}
 </script>	
 </body>
 </html>
