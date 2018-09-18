@@ -40,7 +40,7 @@
    
 <div class="container">
  
-  <form action="loanapplication.php" method="post">
+  <form action="validateloan.php" method="post">
     <div class="form-group">
       <label for="loanapplication">Loan Amount:</label>
       <input type="number" class="form-control" id="loanprincipal" placeholder="Enter loan amount" name="loanprincipal">
