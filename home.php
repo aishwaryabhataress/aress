@@ -209,6 +209,8 @@ li a.active {
 
 <div class="slideshow-container">
 <div class="mySlides fade">
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	<div class="numbertext">1 / 6</div>
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
@@ -220,8 +222,7 @@ li a.active {
 		</div>
 	</div>
 	<div class="mySlides fade">
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
 		<div class="numbertext">2 / 6</div>
 			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
  		</div>
