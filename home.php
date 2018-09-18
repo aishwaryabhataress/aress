@@ -337,3 +337,6 @@ li a.active {
 </script>	
 </body>
 </html>
+<?php
+	$_Session['carloan']= $carloan;
+?>
