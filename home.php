@@ -356,4 +356,5 @@ li a.active {
 </html>
 <?php
 	$_SESSION['carloan']= $carloan;
+echo $_SESSION['carloan'];
 ?>
