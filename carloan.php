@@ -34,8 +34,11 @@
 </style>
 </head>
   <?php
-	 echo $_POST['carloan'];
+	 $button_val = $_POST['carloan'];
     $loanprincipal=$tenure=$annualincome="";
+	if($button_val = 'carloan'){
+		
+	}
   ?>
 <body>
   
