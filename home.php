@@ -189,7 +189,9 @@ li a.active {
 	
 </style>
 </head>
-
+<?php
+	$bikeloan = $carloan="";
+	?>
 <body>
 <div class="header">
 	<div class="col-sm-12">
@@ -218,10 +220,10 @@ li a.active {
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
 		<div style="display: inline-block; width:30%;">	
-			<button class="bttn" onClick="location.href='carloan.php'">Car loan</button>  
+			<button class="bttn" onClick="location.href='carloan.php'" value="carloan" name="carloan">Car loan</button>  
 		</div>
-		<div style="display: inline-block; width:30%; margin-left: -10px;"> 
-			<button class="bttn" onClick="location.href='loanapplication.php'">Bike loan</button> 
+		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
+			<button class="bttn" onClick="location.href='loanapplication.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
 		</div>
 	</div>
 	<div class="mySlides fade">
