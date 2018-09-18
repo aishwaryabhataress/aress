@@ -22,14 +22,17 @@ img {vertical-align: middle;}
 }
 
 .slideshow-container .bttn {
-    display: inline-block;
-    top: 80%;
-    margin-left: 190px;
-    position: absolute;
+     /* display: inline-block; */
+    /* top: 80%; */
+    left: 50%;
+    bottom: 30px;
+    /* margin-left: 190px; */
+    z-index: 1111;
+    position: relative;
     background-color: #555;
     color: white;
     font-size: 16px;
-     border: none;
+    border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
@@ -169,11 +172,9 @@ li a.active {
 .para{
      border-style: hidden;
      border-width: 10px;
-     margin-left:500px;
-     margin-top :-300px;
+     
      padding-left: 80px;
-     font-size: 25px;
-     font-color:#F5330C;
+    
      font-style: oblique;
      text-align:justify;
 }
@@ -248,7 +249,7 @@ li a.active {
 	</div>
 	<div class="col-sm-12 col-lg-4 col-lg-4" >
 	
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px;width: 100%; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
 	</div>
 	
 	<div class="para col-sm-12 col-lg-8 col-lg-8" >
