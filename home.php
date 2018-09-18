@@ -223,7 +223,7 @@ li a.active {
 			<button class="bttn" onClick="location.href='carloan.php'" value="carloan" name="carloan">Car loan</button>  
 		</div>
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
-			<button class="bttn" onClick="location.href='loanapplication.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
+			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
 		</div>
 	</div>
 	<div class="mySlides fade">
@@ -234,7 +234,7 @@ li a.active {
 				<button class="bttn" onClick="location.href='carloan.php'">Personal</button>  
 			</div>
 			<div style="display: inline-block; width:30%; margin-left: 10px;"> 
-				<button class="bttn" onClick="location.href='loanapplication.php'">Commercial</button> 
+				<button class="bttn" onClick="location.href='carloan.php'">Commercial</button> 
 			</div>	
 		</div>
 		<div class="mySlides fade">
