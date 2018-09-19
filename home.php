@@ -245,6 +245,14 @@ body{
 	.fa-search:before {
     content: "\f002";
 }
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 </style>
 	<script type="text/javascript">
 				
