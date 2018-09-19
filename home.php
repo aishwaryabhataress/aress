@@ -425,7 +425,7 @@ input[type=text],input[type = number], input[type = date],input[type = email], s
 	
 	<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
 	<div class="container">
-	<form action="" method="POST">
+	<form action="searchresults.php" method="POST">
 		<div class="form-group">
       			<label for="firstname">First Name:</label>
       				<input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname">
