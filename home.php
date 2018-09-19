@@ -277,8 +277,8 @@ label {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    height: 283px;
-    width: 431px;
+    height: 295px;
+    width: 390px;
     align: center;
     background-color: white;
     border: 3px solid black;
