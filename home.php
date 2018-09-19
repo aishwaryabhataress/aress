@@ -204,6 +204,8 @@ li a.active {
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+    line-height: 1.42857143;
 }
 
 
@@ -260,7 +262,7 @@ label {
 
 .form-control {
     width: 100%;
-    padding: 6px 12px;
+    padding: 9px 12px;
     color: #555;
     border: 1px solid #ccc;
     border-radius: 4px;
