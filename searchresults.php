@@ -11,5 +11,10 @@ if (!$db)
 
 $query = "SELECT FirstName ,LastName FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'];";
 $result = pg_query($query);
+if(sizeOf($result)){
 echo $result;
+}
+else{
+	echo "<script type='text/javascript'>alert(\"No Records to display!!!!\")</script>";
+}
 ?>
