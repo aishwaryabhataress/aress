@@ -245,14 +245,7 @@ body{
 	.fa-search:before {
     content: "\f002";
 }
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 </style>
 	<script type="text/javascript">
 				
@@ -376,7 +369,7 @@ body{
    		<div class="search">
    		   <input type="text" class="searchTerm" placeholder="What are you looking for?">
    			   <button type="submit" class="searchButton">
-   			     <i class="fa fa-search"></i>
+   			     <i class="fa fa-search"> &#xf002;</i>
     			   </button>
    		</div>
 	</div>
