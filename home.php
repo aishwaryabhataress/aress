@@ -367,7 +367,7 @@ body{
 	
 	
 	<div class="wrap">
-		<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; color: #00B4CC; font-style: oblique;">Already a Customer?</div>
+		<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
    		<div class="search">
    		   <input type="text" class="searchTerm" placeholder="Search Here">
    			   <button type="submit" class="searchButton">
@@ -375,6 +375,7 @@ body{
     			   </button>
    		</div>
 	</div>
+	<div><button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button></div>
 	
 	
 </div>
