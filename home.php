@@ -30,19 +30,22 @@ img {vertical-align: middle;}
 }
 
 .slideshow-container .bttn {
-     /* display: inline-block; */
+    display: inline-block;
     /* top: 80%; */
-    left: 110%;
-    bottom: 39px;
+    /* left: 110%; */
+    /* bottom: 39px; */
     /* margin-left: 190px; */
-    z-index: 1111;
+    /* z-index: 1111; */
+    margin-top: 90px;
     position: relative;
     background-color: #555;
     color: white;
-    font-size: 16px;
-    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: oblique;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 7px;
+    background-color: #00b4cc;
     text-align: center;
 }
 
