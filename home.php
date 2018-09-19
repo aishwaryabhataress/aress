@@ -367,8 +367,9 @@ body{
 	
 	
 	<div class="wrap">
+		Already a Customer?
    		<div class="search">
-   		   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+   		   <input type="text" class="searchTerm" placeholder="Search Here">
    			   <button type="submit" class="searchButton">
    			     <i class="fa fa-search"></i>
     			   </button>
