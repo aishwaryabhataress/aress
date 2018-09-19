@@ -250,6 +250,21 @@ body{
     content:"\f002";
 }
 
+	
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-control {
+    width: 100%;
+    padding: 6px 12px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 </style>
 	<script type="text/javascript">
 				
@@ -397,7 +412,7 @@ body{
       			<label for="mobile">Mobile:</label>
       				<input type="number" class="form-control" id="mobile" placeholder="Mobile" name="mobile">
    		</div>
-	  <button type="Search" class="btn btn-default">Search</button>
+	  <button type="Search" class="bttn">Search</button>
 	
 	</form>
 	
