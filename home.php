@@ -258,6 +258,8 @@ label {
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: 700;
+    padding: 12px 12px 12px 0;
+    text-align: right;
 }
 
 .form-control {
