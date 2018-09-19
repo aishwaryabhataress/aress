@@ -202,19 +202,16 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.search {
-  width: 100%;
-  position: relative
-}
+
 
 .searchTerm {
   float: left;
   width: 100%;
   border: 3px solid #00B4CC;
   padding: 5px;
-  height: 20px;
+  
   border-radius: 5px;
-  outline: none;
+ 
   color: #9DBFAF;
 }
 
@@ -238,11 +235,15 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+   width: 46%;
+    position: relative;
+    margin-top: 119px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+	.fa-search:before {
+    content: "\f002";
 }
 </style>
 	<script type="text/javascript">
