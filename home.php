@@ -193,6 +193,15 @@ li a.active {
 		width:100%;
 	}
 	
+	
+	
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 	<script type="text/javascript">
 				
@@ -309,6 +318,19 @@ li a.active {
 		Typically, these consumers are seeking small-denomination loans … to finance the purchase of a specific equipment, or the capital to start a small business."
 		</p>
 	</div>-->
+	
+	
+	
+	<div class="wrap">
+   		<div class="search">
+   		   <input type="text" class="searchTerm" placeholder="What are you looking for?">
+   			   <button type="submit" class="searchButton">
+   			     <i class="fa fa-search"></i>
+    			   </button>
+   		</div>
+	</div>
+	
+	
 </div>
 	
 </form>	
