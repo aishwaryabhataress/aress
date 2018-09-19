@@ -36,7 +36,7 @@ img {vertical-align: middle;}
     /* bottom: 39px; */
     /* margin-left: 190px; */
     /* z-index: 1111; */
-    margin-top: 90px;
+    margin-top: 37px;
     position: relative;
     background-color: #555;
     color: white;
@@ -261,7 +261,7 @@ label {
 }
 
 .form-control {
-    width: 100%;
+   /* width: 100%;*/
     padding: 9px 12px;
     color: #555;
     border: 1px solid #ccc;
@@ -276,7 +276,15 @@ label {
     margin-right: auto;
     margin-top: 50px;
 	
-}	
+}
+	
+input[type=text],input[type = number], input[type = date], select, textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 </style>
 	<script type="text/javascript">
 				
