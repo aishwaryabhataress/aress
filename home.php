@@ -7,11 +7,10 @@ session_start();
 	<title> Home Page </title>
 <head>
 	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
 
@@ -235,54 +234,54 @@ li a.active {
 	<div class="numbertext">1 / 6</div>
 		<div class="col-sm-12">
 		<img src="http://www.jucbwai.com/images/Vehicle-loan.jpg" style="width:100%" class="img-responsive"></div>
-		<div style="display: inline-block; width:30%;">
-			<!--<a href="carloan.php"><input type="button" class="bttn" value="Car loan" name="carloan"/></a> onClick="location.href='carloan.php'"-->
+		<!--<div style="display: inline-block; width:30%;">
+			
 		<button class="bttn"   onClick="location.href='carloan.php'" value="carloan" id="carloan" name="carloan">Car loan</button> 
-		</div>
+		</div> 
 		<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 			<button class="bttn" onClick="location.href='carloan.php'" value="bikeloan" name="bikeloan" >Bike loan</button> 
-		</div>
+		</div>-->
 	</div>
 	<div class="mySlides fade">
 		
 		<div class="numbertext">2 / 6</div>
 			<img src="https://www.sbiloanrates.com/wp-content/uploads/2017/03/home-loan-emi-calculator-india.jpg" style="width:100%" class="img-responsive">
- 			<div style="display: inline-block; width:30%;">	
+ 			<!--<div style="display: inline-block; width:30%;">	
 				<button class="bttn" onClick="location.href='carloan.php'">Personal</button>  
 			</div>
 			<div style="display: inline-block; width:30%; margin-left: 10px;"> 
 				<button class="bttn" onClick="location.href='carloan.php'">Commercial</button> 
-			</div>	
+			</div>	-->
 		</div>
 		<div class="mySlides fade">
   			<div class="numbertext">3 / 6</div>
   				<img src="http://www.dealsofloan.com/wp-content/uploads/2016/08/Marriage-Loans-Market-in-India1.jpg" style="width:100%;" class="img-responsive">
-				<div style="display: inline-block; width:30%;">	
+				<!--<div style="display: inline-block; width:30%;">	
 					<button class="bttn" onClick="location.href='carloan.php'">Marriage loan</button>  
-				</div>
+				</div>-->
 			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">4 / 6</div>
   				<img src="https://s3-ap-southeast-1.amazonaws.com/buddy4study/blog/uploads/2018/05/07163939/How-to-manage-your-education-loan_Buddy4Study.jpg" style="width:100%;" class="img-responsive">
-				<div style="display: inline-block; width:30%;">	
+				<!--<div style="display: inline-block; width:30%;">	
 					<button class="bttn" onClick="location.href='carloan.php'">Education loan</button>  
-				</div>
+				</div>-->
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">5 / 6</div>
   				<img src="http://www.waranabank.com/uploads/waranabank/banner6.png" style="width:100%;" class="img-responsive">
-				<div style="display: inline-block; width:30%;">	
+				<!--<div style="display: inline-block; width:30%;">	
 					<button class="bttn" onClick="location.href='carloan.php'">Farming loan</button>  
-				</div>
+				</div>-->
  			</div>
 		<div class="mySlides fade">
   			<div class="numbertext">6 / 6</div>
   				<img src="https://qph.fs.quoracdn.net/main-qimg-36323580662716ccc05eb4b8355899d5" style="width:100%;" class="img-responsive">
-				<div style="display: inline-block; width:30%;">	
+				<!--<div style="display: inline-block; width:30%;">	
 					<button class="bttn" onClick="location.href='carloan.php'">Work Capital loan</button>  
-				</div>
+				</div>-->
 			</div>
-			<div style="width: 100%; position: relative; top: -105px;">
+	<div style="width: 100%; position: relative; top: -105px;">
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
@@ -314,12 +313,7 @@ li a.active {
 	
 </form>	
 	
-	
-	
 
-
-	
-	
 	
 <!--<a href="loanapplication.php"><button class="button" type="Apply for Loan" name="action" value="Apply for Loan" style=" float:center; margin-left:700px; margin-top: 100px; text-align:center; background-color:#04C5F9; color:white;">Apply for Loan</button> </a>   -->
 
