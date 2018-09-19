@@ -261,7 +261,7 @@ body{
 	</script>
 </head>
 <?php
-	$bikeloan = $carloan="";
+	$firstname = $lastname = $email = $mobile = "";
 	?>
 <body>
 <div class="header">
@@ -284,7 +284,7 @@ body{
 <br>
 
 	 
-<form action="carloan.php" method="GET">
+
 <div class="slideshow-container">
 <div class="mySlides fade">
 	
@@ -379,8 +379,25 @@ body{
 	
 	
 	<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
+	
 	<form action="" method="POST">
-		<input>
+		<div class="form-group">
+      			<label for="firstname">First Name:</label>
+      				<input type="text" class="form-control" id="firstname" placeholder="First Name" name="firstname">
+    		</div>
+    		<div class="form-group">
+      			<label for="lastname">Last Name:</label>
+      				<input type="text" class="form-control" id="lastname" placeholder="Last Name" name="lastname">
+    		</div>
+     		<div class="form-group">
+      			<label for="email">Email:</label>
+      				<input type="email" class="form-control" id="email" placeholder="Email" name="email">
+   		</div>
+		<div class="form-group">
+      			<label for="mobile">Mobile:</label>
+      				<input type="number" class="form-control" id="mobile" placeholder="Mobile" name="mobile">
+   		</div>
+	  <button type="Search" class="btn btn-default">Search</button>
 	
 	</form>
 	
@@ -392,7 +409,7 @@ body{
 	
 </div>
 	
-</form>	
+
 	
 
 	
