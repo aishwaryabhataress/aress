@@ -367,7 +367,7 @@ body{
 	
 	
 	<div class="wrap">
-		Already a Customer?
+		<div style="text-align: center;">Already a Customer?</div>
    		<div class="search">
    		   <input type="text" class="searchTerm" placeholder="Search Here">
    			   <button type="submit" class="searchButton">
