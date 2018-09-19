@@ -277,6 +277,14 @@ label {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+	height:1500 px; 
+	width:850px; 
+	align:center;
+	background-color:white; 
+	border: 3px solid black; 
+	
+	position: relative;
+	display:block;	
 	
 }
 	
