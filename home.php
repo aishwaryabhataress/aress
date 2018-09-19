@@ -367,9 +367,7 @@ body{
 		</p>
 	</div>-->
 	
-	
-	
-	<div class="wrap">
+	<!--<div class="wrap">
 		<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
    		<div class="search">
    		   <input type="text" class="searchTerm" placeholder="Search Here">
@@ -377,8 +375,19 @@ body{
    			     <i class="fa fa-search"></i>
     			   </button>
    		</div>
+	</div>-->
+	
+	
+	<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
+	<form action="" method="POST">
+		<input>
+	
+	</form>
+	
+	
+	<div><button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button>
+	<button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button>
 	</div>
-	<div><button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button></div>
 	
 	
 </div>
