@@ -52,6 +52,7 @@ img {vertical-align: middle;}
 
 .prev {
   cursor: pointer;
+	float: left;
   color: black;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -60,8 +61,7 @@ img {vertical-align: middle;}
 .next {
   cursor: pointer;
   width: auto;
-  padding: 74px;
-  margin-top: -22px;
+ float: right;
   color: black;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -281,7 +281,7 @@ li a.active {
 					<button class="bttn" onClick="location.href='carloan.php'">Work Capital loan</button>  
 				</div>
 			</div>
-			<div style="width: 100%; position: relative; top: 50px;">
+			<div style="width: 100%; position: relative; top: -105px;">
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
