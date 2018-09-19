@@ -295,9 +295,9 @@ li a.active {
 		<span class="dot" onclick="currentSlide(6)"></span>
 		
 	</div>
-	<div class="col-sm-12 col-lg-4 col-lg-4" >
+	<!--<div class="col-sm-12 col-lg-4 col-lg-4" >
 	
-	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px;width: 100%; margin-top:90px;" class="img-responsive"/> <!--width:400px; height:280px;-->
+	<img src = "http://www.businessnews.com.lb/cms/Portals/2/Feb2010/grow%20SMEs.jpg" style="border-radius:40px;width: 100%; margin-top:90px;" class="img-responsive"/> 
 	</div>
 	
 	<div class="para col-sm-12 col-lg-8 col-lg-8" >
@@ -308,8 +308,8 @@ li a.active {
 		"These are individuals who usually lack the credit or resources to secure a loan and are unlikely to get approval from traditional banks. 
 		Typically, these consumers are seeking small-denomination loans … to finance the purchase of a specific equipment, or the capital to start a small business."
 		</p>
-	</div>
-	</div>
+	</div>-->
+</div>
 	
 </form>	
 	
