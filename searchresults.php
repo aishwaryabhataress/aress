@@ -9,10 +9,6 @@ if (!$db)
 	exit;	
 }
 
-echo $_SESSION['carloan'];
-echo $_GET['carloan'];
-$principal = $_POST['loanprincipal'];
-$ten = $_POST['tenure'];
-$incme = $_POST['annualincome'];
-echo $_POST['annualincome'];
+$query = "SELECT FirstName ,LastName FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'];";
+$result1 = pg_query($query);
 ?>
