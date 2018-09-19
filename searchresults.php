@@ -11,7 +11,7 @@ if (!$db)
 
 $query = "SELECT FirstName ,LastName FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'];";
 $result = pg_query($query);
-if(sizeOf($result)){
+if(sizeof($result)){
 echo $result;
 }
 else{
