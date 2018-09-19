@@ -242,7 +242,7 @@ body{
 
 }
 	.fa-search:before {
-    content: "\f002";
+    content:"\f000";
 }
 
 </style>
