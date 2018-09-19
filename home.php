@@ -278,7 +278,7 @@ label {
 	
 }
 	
-input[type=text],input[type = number], input[type = date], select, textarea {
+input[type=text],input[type = number], input[type = date],input[type = email], select, textarea {
     width: 300px;
     padding: 12px;
     border: 1px solid #ccc;
