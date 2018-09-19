@@ -244,7 +244,7 @@ body{
 
 }
 	.fa-search:before {
-    content:"\f000";
+    content:"\f002";
 }
 
 </style>
