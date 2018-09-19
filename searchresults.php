@@ -10,5 +10,6 @@ if (!$db)
 }
 
 $query = "SELECT FirstName ,LastName FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'];";
-$result1 = pg_query($query);
+$result = pg_query($query);
+echo $result;
 ?>
