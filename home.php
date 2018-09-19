@@ -434,11 +434,11 @@ input[type=text],input[type = number], input[type = date],input[type = email], s
       			<label for="lastname">Last Name:</label>
       				<input type="text" class="form-control" id="lastname" placeholder="Last Name" name="lastname">
     		</div>
-     		<div class="form-group" style="margin-left: 50px;">
+     		<div class="form-group" style="margin-left: 35px;">
       			<label for="email">Email:</label>
       				<input type="email" class="form-control" id="email" placeholder="Email" name="email">
    		</div>
-		<div class="form-group"  style="margin-left: 50px;">
+		<div class="form-group"  style="margin-left: 31px;">
       			<label for="mobile">Mobile:</label>
       				<input type="number" class="form-control" id="mobile" placeholder="Mobile" name="mobile">
    		</div>
