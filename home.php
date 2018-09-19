@@ -195,7 +195,6 @@ li a.active {
 	
 	
 	
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
   background: #f2f2f2;
@@ -369,7 +368,7 @@ body{
    		<div class="search">
    		   <input type="text" class="searchTerm" placeholder="What are you looking for?">
    			   <button type="submit" class="searchButton">
-   			     <i class="fa fa-search"> &#xf002;</i>
+   			     <i class="fa fa-search"></i>
     			   </button>
    		</div>
 	</div>
