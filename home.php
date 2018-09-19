@@ -267,6 +267,16 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+	
+
+.container{
+	
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+	
+}	
 </style>
 	<script type="text/javascript">
 				
@@ -396,7 +406,7 @@ label {
 	
 	
 	<div style="text-align: center; font-size: 20px;font-weight:bold;font-family: 'Open Sans', sans-serif; font-style: oblique;">Already a Customer?</div>
-	
+	<div class="container">
 	<form action="" method="POST">
 		<div class="form-group">
       			<label for="firstname">First Name:</label>
@@ -417,7 +427,7 @@ label {
 	  <button type="Search" class="bttn">Search</button>
 	
 	</form>
-	
+	</div>
 	
 	<div><button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button>
 	<button class="bttn" onClick="location.href='carloan.php'">Create New Customer</button>
