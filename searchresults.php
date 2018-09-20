@@ -1,3 +1,5 @@
+<html>
+	<title>Search Results</title>
 <?php
 
 
@@ -31,3 +33,4 @@ if ($result->num_rows > 0) {
 
 
 ?>
+</html>
