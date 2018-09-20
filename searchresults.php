@@ -10,7 +10,7 @@ if (!$db)
 	exit;	
 }
 $FirstName =$_POST['firstname'];
-$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account WHERE FirstName = ";
+$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account ";
 $result = pg_query($query);
 echo $result;
 /*if(sizeof($result)){
