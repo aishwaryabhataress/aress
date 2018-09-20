@@ -12,7 +12,7 @@ if (!$db)
 $FirstName =$_POST['firstname'];
 $query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account ";
 $result = pg_query($query);
-echo $result;
+//echo $result;
 /*if(sizeof($result)){
 echo $result;
 }where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'] AND Email__c = $_POST['email'] AND Mobile__c =$_POST['mobile']
@@ -22,7 +22,6 @@ else{
 
 
 if ($result->num_rows > 0) {
-    // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<br> id: ". $row["id"]. " - Name: ". $row["FirstName"]. " " . $row["LastName"] . "<br>";
     }
