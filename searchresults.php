@@ -24,13 +24,11 @@ else{
 }*/
 
 
-if ($result->num_rows > 0) {
-	echo "Hi";
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - Name: ". $row["FirstName"]. " " . $row["LastName"] . "<br>";
-    }
-} else {
-    echo "0 results";
+foreach ($db->query($result) as $row) 
+{
+print $row['FirstName'] . " ";
+print $row['LastName'] . "-->";
+print $row['Email__c'] . "<br>";
 }
 
 
