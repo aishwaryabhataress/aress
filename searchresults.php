@@ -12,24 +12,16 @@ if (!$db)
 	exit;	
 }
 $FirstName =$_POST['firstname'];
-$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account ";
-$result = pg_query($query);
-//print_r ($result);
-//echo $result;
-/*if(sizeof($result)){
-echo $result;
-}where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'] AND Email__c = $_POST['email'] AND Mobile__c =$_POST['mobile']
-else{
-	echo "<script type='text/javascript'>alert(\"No Records to display!!!!\")</script>";
-}*/
 
 
-foreach ($db->query($result) as $row) 
-{
-print $row['FirstName'] . " ";
-print $row['LastName'] . "-->";
-print $row['Email__c'] . "<br>";
-}
+$result = pg_query($db,"SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account");
+echo "<table>";
+while($row=pg_fetch_assoc($result)){echo "<tr>";
+echo "<td align='center' width='200'>" . $row['FirstName'] . "</td>";
+echo "<td align='center' width='200'>" . $row['LastName'] . "</td>";
+echo "<td align='center' width='200'>" . $row['Email__c'] . "</td>";
+echo "<td align='center' width='200'>" . $row['Mobile__c'] . "</td>";
+echo "</tr>";}echo "</table>";?>
 
 
 ?>
