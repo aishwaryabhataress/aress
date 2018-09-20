@@ -1,5 +1,11 @@
 <html>
+	<head>
 	<title>Search Results</title>
+
+	</head>
+
+<body>
+<div style="border:1px solid red;">
 <?php
 
 
@@ -22,4 +28,6 @@ echo "</tr>";}echo "</table>";
 
 
 ?>
+	</div>
+</body>
 </html>
