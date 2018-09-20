@@ -10,13 +10,13 @@ if (!$db)
 	exit;	
 }
 
-$query = "SELECT FirstName ,LastName FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'];";
+$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account where FirstName =$_POST['firstname'] AND LastName=$_POST['lastname'] AND Email__c = $_POST['email'] AND Mobile__c =$_POST['mobile'];";
 $result = pg_query($query);
 echo $result;
-if(sizeof($result)){
+/*if(sizeof($result)){
 echo $result;
 }
 else{
 	echo "<script type='text/javascript'>alert(\"No Records to display!!!!\")</script>";
-}
+}*/
 ?>
