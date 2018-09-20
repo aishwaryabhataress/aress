@@ -11,7 +11,7 @@ if (!$db)
 	echo "An error occurred.\n";
 	exit;	
 }
-$FirstName =$_POST['firstname'];
+
 
 
 $result = pg_query($db,"SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account");
@@ -21,7 +21,7 @@ echo "<td align='center' width='200'>" . $row['FirstName'] . "</td>";
 echo "<td align='center' width='200'>" . $row['LastName'] . "</td>";
 echo "<td align='center' width='200'>" . $row['Email__c'] . "</td>";
 echo "<td align='center' width='200'>" . $row['Mobile__c'] . "</td>";
-echo "</tr>";}echo "</table>";?>
+echo "</tr>";}echo "</table>";
 
 
 ?>
