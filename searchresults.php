@@ -9,8 +9,8 @@ if (!$db)
 	echo "An error occurred.\n";
 	exit;	
 }
-
-$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account ";
+$FirstName =$_POST['firstname'];
+$query = "SELECT LastName, FirstName, Email__c, Mobile__c FROM salesforce.account WHERE FirstName = ";
 $result = pg_query($query);
 echo $result;
 /*if(sizeof($result)){
@@ -19,4 +19,16 @@ echo $result;
 else{
 	echo "<script type='text/javascript'>alert(\"No Records to display!!!!\")</script>";
 }*/
+
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<br> id: ". $row["id"]. " - Name: ". $row["FirstName"]. " " . $row["LastName"] . "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+
 ?>
