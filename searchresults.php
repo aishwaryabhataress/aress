@@ -30,13 +30,12 @@ while($row = pg_fetch_row($result)){
 echo "<tr>";
 echo "<td align='center' width='200'>" . $row[0] . "</td>";
 echo "<td align='center' width='200'>" . $row[1] . "</td>";
-echo "<td align='center' width='200'>" . $row[2] . "</td>";
 echo "<td align='center' width='200'>" . $row[3] . "</td>";
 echo "</tr>";}
 echo "</table>";
 
 ?>
- <input type="button" class="my-button" name="back" value="Back" onclick="location.href='home.php'" style="margin-left: 700px; background-color:#04C5F9; color:white; "/>
+ <input type="button" class="my-button" name="back" value="Back" onclick="location.href='home.php'" style="background-color:#04C5F9; color:white; "/>
 		
 	</div>
 </body>
