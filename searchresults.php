@@ -11,12 +11,7 @@
 <body>
 <div style="border:1px solid black;">
 <table>
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-       
-    </tr>
-
+    
 <?php
 
 
