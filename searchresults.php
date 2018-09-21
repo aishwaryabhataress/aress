@@ -18,7 +18,7 @@ if (!$db)
 }
 
 
-$query ="SELECT Id FROM salesforce.account;";
+$query ="SELECT Id,FirstName,LastName FROM salesforce.account;";
 $result = pg_query($query);
 echo($result);
 echo "<table>";
