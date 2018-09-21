@@ -23,9 +23,9 @@ $result = pg_query($query);
 echo "<table>";
 while($row = pg_fetch_row($result)){
 echo "<tr>";
-echo"<th align='center' width='200'>" FirstName "</td>";
+echo"<th align='center' width='200'>" FirstName "</th>";
 echo "<td align='center' width='200'>" . $row[1] . "</td>";
-echo"<th align='center' width='200'>" LastName "</td>";
+echo"<th align='center' width='200'>" LastName "</th>";
 echo "<td align='center' width='200'>" . $row[2] . "</td>";
 echo "</tr>";}
 echo "</table>";
