@@ -9,7 +9,7 @@
 	</head>
 
 <body>
-<div style="border:1px solid black;">
+<div style="border:1px solid black; postion: relative; text-align:center;">
     
 <?php
 
