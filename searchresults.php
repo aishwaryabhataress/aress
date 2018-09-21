@@ -20,16 +20,33 @@ if (!$db)
 
 $query ="SELECT FirstName,LastName FROM salesforce.account;";
 $result = pg_query($query);
-echo "<table>";
+/*echo "<table>";
 while($row = pg_fetch_row($result)){
 echo "<tr>";
-echo"<th align='center' width='200'>" FirstName "</th>";
+
 echo "<td align='center' width='200'>" . $row[1] . "</td>";
-echo"<th align='center' width='200'>" LastName "</th>";
+
 echo "<td align='center' width='200'>" . $row[2] . "</td>";
 echo "</tr>";}
-echo "</table>";
+echo "</table>";*/
 
+	
+<table>
+    <tr>
+        <th>Fisrt Name</th>
+        <th>Last Name</th>
+      
+    </tr>
+    <?php
+           
+           while($row = pg_fetch_row($result)){
+                echo "\t<tr><td>".$row[1]."</td><td>".$row[2]."</td></tr>\n";
+            }
+           
+    ?>
+</table>	
+	
+	
 
 ?>
 	</div>
