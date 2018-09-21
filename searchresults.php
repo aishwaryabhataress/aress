@@ -24,7 +24,7 @@ if (!$db)
 
 $query ="SELECT FirstName,LastName,Email__c,Mobile__c FROM salesforce.account Where FirstName = '$_POST[firstname]' AND LastName = '$_POST[lastname]' AND Email__c = '$_POST[email]' AND Mobile__c = '$_POST[mobile]';";
 $result = pg_query($query);
-<div>
+
 echo "<table>";
 while($row = pg_fetch_row($result)){
 echo "<tr>";
@@ -34,7 +34,7 @@ echo "<td align='center' width='200'>" . $row[2] . "</td>";
 echo "<td align='center' width='200'>" . $row[3] . "</td>";
 echo "</tr>";}
 echo "</table>";
-</div>
+
 ?>
  <input type="button" class="my-button" name="back" value="Back" onclick="location.href='home.php'" style="margin-left: 700px; background-color:#04C5F9; color:white; "/>
 		
