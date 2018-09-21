@@ -18,7 +18,8 @@ if (!$db)
 }
 
 
-$result = pg_query ("SELECT LastName, FirstName FROM salesforce.account;");
+ $query ="SELECT LastName, FirstName FROM salesforce.account;";
+$result = pg_query($query);
 echo($result);
 echo "<table>";
 while($row=pg_fetch_assoc($result)){echo "<tr>";
