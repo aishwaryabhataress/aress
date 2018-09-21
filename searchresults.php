@@ -35,6 +35,7 @@ echo "</tr>";}
 echo "</table>";
 
 ?>
+	<br><br>
  <input type="button" class="my-button" name="back" value="Back" onclick="location.href='home.php'" style="background-color:#04C5F9; color:white; "/>
 		
 	</div>
