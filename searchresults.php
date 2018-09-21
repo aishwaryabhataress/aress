@@ -6,6 +6,12 @@
 
 <body>
 <div style="border:1px solid red;">
+<table>
+    <tr>
+        <th>Fisrt Name</th>
+        <th>Last Name</th>
+      
+    </tr>
 <?php
 
 
@@ -31,24 +37,20 @@ echo "</tr>";}
 echo "</table>";*/
 
 	
-<table>
-    <tr>
-        <th>Fisrt Name</th>
-        <th>Last Name</th>
-      
-    </tr>
-    <?php
+
+  
            
            while($row = pg_fetch_row($result)){
                 echo "\t<tr><td>".$row[1]."</td><td>".$row[2]."</td></tr>\n";
             }
            
-    ?>
-</table>	
+  
+	
 	
 	
 
 ?>
+	</table>
 	</div>
 </body>
 </html>
