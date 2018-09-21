@@ -6,12 +6,7 @@
 
 <body>
 <div style="border:1px solid red;">
-<table>
-    <tr>
-        <th>Fisrt Name</th>
-        <th>Last Name</th>
-      
-    </tr>
+
 <?php
 
 
@@ -37,9 +32,7 @@ echo "</tr>";}
 echo "</table>";
 
 	
-
-  
-           
+        
           
            
   
@@ -48,7 +41,7 @@ echo "</table>";
 	
 
 ?>
-	</table>
+	
 	</div>
 </body>
 </html>
