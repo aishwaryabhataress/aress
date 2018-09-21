@@ -22,10 +22,12 @@ $query ="SELECT Id,FirstName,LastName FROM salesforce.account;";
 $result = pg_query($query);
 echo($result);
 echo "<table>";
-while($row=pg_fetch_assoc($result)){echo "<tr>";
+while($row=pg_fetch_row($result)){
+echo "<tr>";
 echo "<td align='center' width='200'>" . $row['FirstName'] . "</td>";
 echo "<td align='center' width='200'>" . $row['LastName'] . "</td>";
-echo "</tr>";}echo "</table>";
+echo "</tr>";}
+echo "</table>";
 
 
 ?>
