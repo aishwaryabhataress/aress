@@ -32,7 +32,7 @@ echo "<td align='center' width='200'>" . $row[1] . "</td>";
 echo "</tr>";}
 echo "</table>";
 ?>
-<a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="text-align:center; background-color:#04C5F9; color:white;"/></a>
+ <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="text-align:center; background-color:#04C5F9; color:white; display: inline;"/>
 		
 	</div>
 </body>
