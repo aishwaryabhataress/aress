@@ -13,6 +13,8 @@
 	  	/*  height: 1500px;
 	     width: 850px; 
 	    align: center;*/
+		border: 1px solid black;
+		 border-radius: 4px;
 	    text-align: center;
 	    margin-left: auto;
 	    margin-right: auto;
