@@ -41,7 +41,12 @@ echo "</table>";*/
   
            
            while($row = pg_fetch_row($result)){
-                echo "\t<tr><td>".$row[1]."</td><td>".$row[2]."</td></tr>\n";
+               echo "<tr>";
+
+echo "<td align='center' width='200'>" . $row[1] . "</td>";
+
+echo "<td align='center' width='200'>" . $row[2] . "</td>";
+echo "</tr>";
             }
            
   
