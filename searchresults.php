@@ -10,10 +10,8 @@
 
 <body>
 <div style="border:1px solid black;">
-<table>
     
 <?php
-
 
 $db = pg_connect("host=ec2-54-227-244-12.compute-1.amazonaws.com  port=5432 dbname=d544g2lkvj2uqn user=jwvfktfyuyftwy password=cd2fd6c6fe21c91ec21198788e2eb438b39d7b609127f5dde02af95849278ecc");
 
@@ -33,18 +31,9 @@ echo "<td align='center' width='200'>" . $row[0] . "</td>";
 echo "<td align='center' width='200'>" . $row[1] . "</td>";
 echo "</tr>";}
 echo "</table>";
-
-	
-        
-          
-           
-  
-	
-	
-	
-
 ?>
-	</table>	
+<a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="text-align:center; background-color:#04C5F9; color:white;"/></a>
+		
 	</div>
 </body>
 </html>
