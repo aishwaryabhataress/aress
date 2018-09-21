@@ -22,7 +22,7 @@ if (!$db)
 }
 
 
-$query ="SELECT FirstName,LastName,Email__c,Mobile__c FROM salesforce.account Where FirstName = '$_POST[firstname]' AND LastName = '$_POST[lastname]' AND Email__c = '$_POST[email]' AND Mobile__c = '$_POST[email]';";
+$query ="SELECT FirstName,LastName,Email__c,Mobile__c FROM salesforce.account Where FirstName = '$_POST[firstname]' AND LastName = '$_POST[lastname]' AND Email__c = '$_POST[email]' AND Mobile__c = '$_POST[mobile]';";
 $result = pg_query($query);
 echo "<table>";
 while($row = pg_fetch_row($result)){
