@@ -22,7 +22,7 @@ if (!$db)
 }
 
 
-$query ="SELECT FirstName,LastName FROM salesforce.account;";
+$query ="SELECT FirstName,LastName FROM salesforce.account Where FirstName = '$_POST[firstname]';";
 $result = pg_query($query);
 echo "<table>";
 while($row = pg_fetch_row($result)){
