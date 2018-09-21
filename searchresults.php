@@ -18,12 +18,14 @@ if (!$db)
 }
 
 
-$query ="SELECT Id,FirstName,LastName FROM salesforce.account;";
+$query ="SELECT FirstName,LastName FROM salesforce.account;";
 $result = pg_query($query);
 echo "<table>";
 while($row = pg_fetch_row($result)){
 echo "<tr>";
+echo"<th align='center' width='200'>" FirstName "</td>";
 echo "<td align='center' width='200'>" . $row[1] . "</td>";
+echo"<th align='center' width='200'>" LastName "</td>";
 echo "<td align='center' width='200'>" . $row[2] . "</td>";
 echo "</tr>";}
 echo "</table>";
