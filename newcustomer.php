@@ -49,7 +49,7 @@
   </head>
 	
   <body>
-    <form method="POST" >
+    <form method="POST" action="createcustomer.php">
       <div class = "container">
 	  <div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;text-align:right;">
