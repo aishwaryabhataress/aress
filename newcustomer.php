@@ -61,9 +61,7 @@
 				<option value="Mr.">Mr.</option>
 				<option value="Ms.">Ms.</option>
 				<option value="Mrs.">Mrs.</option>
-				<option value="Prof.">Education loan</option>
-				<option value="Dr.">Farming loan</option>
-	  		</select>
+			</select>
 		  </div>
 	  </div>
 	  <br><br>
