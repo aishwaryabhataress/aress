@@ -54,8 +54,12 @@
 		echo "An error occurred.\n";
 		exit;	
 	}
-	
-	
+	$personid = '0121J000000qq0sQAA';
+	$query = "INSERT INTO salesforce.Account(FirstName,LastName,Salutation, RecordTypeId,  Email__c, Mobile__c , BillingStreet,BillingCity,BillingState,BillingPostalCode,BillingCountry) VALUES('$_POST[firstname]','$_POST[lastname]','$_POST[salutation]','$personid', '$_POST[email]','$_POST[mobile]','$_POST[street]','$_POST[city]','$_POST[state]','$_POST[postalcode]','$_POST[country]');";
+	$result= pg_query($query);
+	echo "<script type='text/javascript'>alert('Customer created successfully!!!')</script>";
+	include("home.php");
+	return $db;
 	
 	?>
   <body>
