@@ -104,7 +104,7 @@
 		 </div>
 		<br><br>
 	<div style="width:100%; display: inline;">
-		<div style="width:35%;  margin: 0 auto;">
+		<div style="width: 35%; margin: 0 auto; margin-left: 336px; margin-top: 150px;">
 	  		<input class="my-button" type="submit" name="submit" value="Submit" style=" text-align:center; background-color:#04C5F9; color:white;"/>
 	  		<a href="home.php"> <input type="button" class="my-button" name="back" value="Back" onclick="home.php" style="text-align:center; background-color:#04C5F9; color:white;"/></a>
 		 </div>
