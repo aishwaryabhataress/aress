@@ -52,12 +52,19 @@
     <form method="POST" action="createcustomer.php">
       <div class = "container">
 	  <div style="display:inline-block;width:100%;">
-      		<div style="width:25%;float:left;text-align:right;">
-	      		<label for="salutation"> Salutation</label>
-		</div>
-		<div style="width:75%;float:left;">
-			<input type="text" name="salutation">
-		</div> 
+      		<div style="width:25%;float:left;text-align:right;"> 
+	      		<label for="salutation">Salutation</label> 
+		 </div>
+		 <div style="width:75%;float:left;">  
+			 <select name="salutation">
+	  			<option value="default">Select</option>
+				<option value="Mr.">Mr.</option>
+				<option value="Ms.">Ms.</option>
+				<option value="Mrs.">Mrs.</option>
+				<option value="Prof.">Education loan</option>
+				<option value="Dr.">Farming loan</option>
+	  		</select>
+		  </div>
 	  </div>
 	  <br><br>
           <div style="display:inline-block;width:100%;">
