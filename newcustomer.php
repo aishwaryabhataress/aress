@@ -19,13 +19,46 @@
 	        margin-top:50px;
 	        position: relative;
 	        display:block;	
-}
+	}
+	    
+	input[type=text],input[type = number], input[type = date], select, textarea {
+   		width: 300px;
+    		padding: 12px;
+    		border: 1px solid #ccc;
+    		border-radius: 4px;
+    		resize: vertical;
+	}
+	label {
+    		padding: 12px 12px 12px 0;
+    		display: inline-block;
+    		text-align: right;
+	}
+	.my-button {
+    		display: inline-block;
+    		color: #333;
+    		font-size: 1em;
+    		font-style: italic;
+    		border-radius: 50px;
+    		padding: 8px 16px;
+    		-moz-transition: all 0.2s;
+    		-webkit-transition: all 0.2s;
+    		transition: all 0.2s;
+	}
     </style>
     
   </head>
   <body>
     <form method="POST" >
       <div class = "container">
+	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;">
+	      		<label for="salutation"> Salutation</label>
+		</div>
+		<div style="width:75%;float:left;">
+			<input type="text" name="salutation">
+		</div> 
+	  </div>
+	  <br><br>
           <div style="display:inline-block;width:100%;">
       		    <div style="width:25%; float: left; text-align:right;">
 	       		      <label for="firstname">Name</label> 
@@ -38,6 +71,8 @@
 		          </div>
 	        </div>
       </div>
+	<br><br>
+	    
     </form>
   </body>
 </html>
