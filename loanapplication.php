@@ -13,7 +13,7 @@
     }
     .container{
 	height:1500 px; 
-	width:822px; 
+	width:843px; 
 	align:center;
 	padding: 50px;
 	border-radius: 110px;
