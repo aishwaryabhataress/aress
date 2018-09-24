@@ -447,7 +447,7 @@ input[type=text],input[type = number], input[type = date],input[type = email], s
 	</form>
 	</div>
 	
-	<div style="text-align:center;"><button class="bttn" onClick="location.href='loanapplication.php'">Create New Customer</button>
+	<div style="text-align:center;"><button class="bttn" onClick="location.href='newcustomer.php'">Create New Customer</button>
 	</div>
 	
 	
