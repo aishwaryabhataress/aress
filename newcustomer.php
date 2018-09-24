@@ -60,53 +60,50 @@
 	  </div>
 	  <br><br>
           <div style="display:inline-block;width:100%;">
-      		    <div style="width:25%; float: left; text-align:right;">
-	       		      <label for="firstname">Name</label> 
-		          </div>
-		          <div style="width:20%;float:left;"> 
-			            <input type="text" name="firstname" placeholder="First Name"  required>
-		          </div>
-		          <div style="width:15%;float:left; padding-left:150px;"> 
-			            <input type="text" name="lastname" placeholder="Last Name"  required>
-		          </div>
-	        </div>
-      </div>
-	<br><br>
-	  <div class = "container">
-	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%; float: left; text-align:right;">
+	       	   	<label for="firstname">Name</label> 
+		</div>
+		<div style="width:20%;float:left;"> 
+			<input type="text" name="firstname" placeholder="First Name"  required>
+		</div>
+		<div style="width:15%;float:left; padding-left:150px;"> 
+		        <input type="text" name="lastname" placeholder="Last Name"  required>
+		</div>
+	  </div>
+      	<br><br>
+	<div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;text-align:right;">
 	      		<label for="email"> Email</label>
 		</div>
 		<div style="width:75%;float:left;">
 			<input type="text" name="email">
 		</div> 
-	  </div>
+	 </div>
 	  <br><br>
-	 <div class = "container">
-	  <div style="display:inline-block;width:100%;">
+	<div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;text-align:right;">
 	      		<label for="mobile"> Mobile</label>
 		</div>
 		<div style="width:75%;float:left;">
 			<input type="number" name="mobile">
 		</div> 
-	  </div>
+	</div>
 	  <br><br>
 	<div style="display:inline-block;width:100%;">
       		<div style="width:25%;float:left;text-align:right;">
 	     		<label for="address"> Address</label>
-		 </div>
-		 <div style="width:15%;float:left;"> 
+		</div>
+		<div style="width:15%;float:left;"> 
 			 <input type ="text" name="street" placeholder ="Street"><br><br>
-			  <input type ="text" name="state" placeholder ="State"><br><br>
-			  <input type ="text" name="country" placeholder ="Country">
+			 <input type ="text" name="state" placeholder ="State"><br><br>
+			 <input type ="text" name="country" placeholder ="Country">
 		 </div>
 		 <div style="width:15%;float:left;padding-left:200px;"> 
 			 <input type ="text" name="city" placeholder ="City"><br><br>
-			  <input type ="number" name="postalcode" placeholder ="Postal Code">
+			 <input type ="number" name="postalcode" placeholder ="Postal Code">
 		 </div>
-	  </div>
-	    
+	</div>
+		    
     </form>
   </body>
 </html>
