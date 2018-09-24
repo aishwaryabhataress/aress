@@ -72,6 +72,40 @@
 	        </div>
       </div>
 	<br><br>
+	  <div class = "container">
+	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;">
+	      		<label for="email"> Email</label>
+		</div>
+		<div style="width:75%;float:left;">
+			<input type="text" name="email">
+		</div> 
+	  </div>
+	  <br><br>
+	 <div class = "container">
+	  <div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;">
+	      		<label for="mobile"> Mobile</label>
+		</div>
+		<div style="width:75%;float:left;">
+			<input type="number" name="mobile">
+		</div> 
+	  </div>
+	  <br><br>
+	<div style="display:inline-block;width:100%;">
+      		<div style="width:25%;float:left;text-align:right;">
+	     		<label for="address"> Address</label>
+		 </div>
+		 <div style="width:15%;float:left;"> 
+			 <input type ="text" name="street" placeholder ="Street"><br><br>
+			  <input type ="text" name="state" placeholder ="State"><br><br>
+			  <input type ="text" name="country" placeholder ="Country">
+		 </div>
+		 <div style="width:15%;float:left;padding-left:200px;"> 
+			 <input type ="text" name="city" placeholder ="City"><br><br>
+			  <input type ="number" name="postalcode" placeholder ="Postal Code">
+		 </div>
+	  </div>
 	    
     </form>
   </body>
