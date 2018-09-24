@@ -10,15 +10,15 @@
     <style>
        .container{
 	        height:1500 px; 
-	        width:850px; 
-	        align:center;
-	        background-color:white; 
-	        border: 3px solid black; 
-	        margin-left:auto;
-	        margin-right:auto;
-	        margin-top:50px;
-	        position: relative;
-	        display:block;	
+		width:822px; 
+		align:center;
+		padding: 50px;
+		border-radius: 110px;
+		background-color:white; 
+		border: 3px solid black; 
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:50px;	
 	}
 	    
 	input[type=text],input[type = number], input[type = date], select, textarea {
